@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "name": "Maastricht",
+        "file": "maastricht.json"
+    },
+    {
+        "name": "Vlissingen",
+        "file": "vlissingen.json"
+    },
+    {
+        "name": "Twenthe",
+        "file": "twenthe.json"
+    },
+    {
+        "name": "Eindhoven",
+        "file": "eindhoven.json"
+    },
+    {
+        "name": "Zwolle",
+        "file": "zwolle.json"
+    },
+    {
+        "name": "Arnhem",
+        "file": "arnhem.json"
+    }
+]
