@@ -2,22 +2,14 @@
     "station": "De Bilt",
     "lat": 52.1,
     "lon": 5.18,
-    "updated_at": "2026-04-01 12:26:01",
+    "updated_at": "2026-04-01 13:36:32",
     "forecast": [
         {
-            "Tijd": "01-04-2026 15:00",
-            "Temp_Out": 12.0,
-            "RH": 56.0,
-            "THI_Out": 54.7,
-            "THI_In": 59.2,
-            "Advies": "Geen alert"
-        },
-        {
             "Tijd": "01-04-2026 16:00",
-            "Temp_Out": 12.0,
+            "Temp_Out": 13.0,
             "RH": 57.0,
-            "THI_Out": 54.6,
-            "THI_In": 59.2,
+            "THI_Out": 56.0,
+            "THI_In": 60.3,
             "Advies": "Geen alert"
         },
         {
