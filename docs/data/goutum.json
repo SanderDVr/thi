@@ -2,18 +2,10 @@
     "station": "Goutum",
     "lat": 53.18,
     "lon": 5.8,
-    "updated_at": "2026-04-01 12:26:00",
+    "updated_at": "2026-04-01 14:37:10",
     "forecast": [
         {
-            "Tijd": "01-04-2026 15:00",
-            "Temp_Out": 11.0,
-            "RH": 67.0,
-            "THI_Out": 52.9,
-            "THI_In": 58.1,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "01-04-2026 16:00",
+            "Tijd": "01-04-2026 17:00",
             "Temp_Out": 11.0,
             "RH": 69.0,
             "THI_Out": 52.9,
@@ -21,34 +13,26 @@
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "01-04-2026 17:00",
-            "Temp_Out": 11.0,
-            "RH": 74.0,
-            "THI_Out": 52.7,
-            "THI_In": 58.1,
-            "Advies": "Geen alert"
-        },
-        {
             "Tijd": "01-04-2026 18:00",
             "Temp_Out": 10.0,
-            "RH": 80.0,
-            "THI_Out": 50.9,
+            "RH": 77.0,
+            "THI_Out": 51.0,
             "THI_In": 56.8,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-04-2026 19:00",
             "Temp_Out": 9.0,
-            "RH": 86.0,
-            "THI_Out": 49.0,
+            "RH": 84.0,
+            "THI_Out": 49.1,
             "THI_In": 55.4,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-04-2026 20:00",
             "Temp_Out": 8.0,
-            "RH": 90.0,
-            "THI_Out": 47.0,
+            "RH": 89.0,
+            "THI_Out": 47.1,
             "THI_In": 54.0,
             "Advies": "Geen alert"
         },

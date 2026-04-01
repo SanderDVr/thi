@@ -2,44 +2,20 @@
     "station": "Zwolle",
     "lat": 52.51,
     "lon": 6.09,
-    "updated_at": "2026-04-01 11:24:23",
+    "updated_at": "2026-04-01 14:37:16",
     "forecast": [
-        {
-            "Tijd": "01-04-2026 14:00",
-            "Temp_Out": 12.0,
-            "RH": 56.0,
-            "THI_Out": 54.7,
-            "THI_In": 59.2,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "01-04-2026 15:00",
-            "Temp_Out": 13.0,
-            "RH": 52.0,
-            "THI_Out": 56.1,
-            "THI_In": 60.2,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "01-04-2026 16:00",
-            "Temp_Out": 13.0,
-            "RH": 50.0,
-            "THI_Out": 56.1,
-            "THI_In": 60.2,
-            "Advies": "Geen alert"
-        },
         {
             "Tijd": "01-04-2026 17:00",
             "Temp_Out": 13.0,
-            "RH": 52.0,
-            "THI_Out": 56.1,
+            "RH": 54.0,
+            "THI_Out": 56.0,
             "THI_In": 60.2,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-04-2026 18:00",
             "Temp_Out": 12.0,
-            "RH": 58.0,
+            "RH": 59.0,
             "THI_Out": 54.6,
             "THI_In": 59.2,
             "Advies": "Geen alert"
