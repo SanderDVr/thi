@@ -2,10 +2,18 @@
     "station": "De Bilt",
     "lat": 52.1,
     "lon": 5.18,
-    "updated_at": "2026-04-01 01:38:17",
+    "updated_at": "2026-04-01 03:09:35",
     "forecast": [
         {
-            "Tijd": "01-04-2026 04:00",
+            "Tijd": "01-04-2026 06:00",
+            "Temp_Out": 5.0,
+            "RH": 94.0,
+            "THI_Out": 41.6,
+            "THI_In": 49.7,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "01-04-2026 07:00",
             "Temp_Out": 5.0,
             "RH": 96.0,
             "THI_Out": 41.4,
@@ -13,41 +21,17 @@
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "01-04-2026 05:00",
-            "Temp_Out": 5.0,
-            "RH": 97.0,
-            "THI_Out": 41.3,
-            "THI_In": 49.5,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "01-04-2026 06:00",
-            "Temp_Out": 5.0,
-            "RH": 95.0,
-            "THI_Out": 41.5,
-            "THI_In": 49.6,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "01-04-2026 07:00",
-            "Temp_Out": 5.0,
-            "RH": 97.0,
-            "THI_Out": 41.3,
-            "THI_In": 49.5,
-            "Advies": "Geen alert"
-        },
-        {
             "Tijd": "01-04-2026 08:00",
             "Temp_Out": 6.0,
-            "RH": 96.0,
-            "THI_Out": 43.1,
+            "RH": 95.0,
+            "THI_Out": 43.2,
             "THI_In": 51.0,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-04-2026 09:00",
             "Temp_Out": 7.0,
-            "RH": 91.0,
+            "RH": 90.0,
             "THI_Out": 45.3,
             "THI_In": 52.6,
             "Advies": "Geen alert"
@@ -55,8 +39,8 @@
         {
             "Tijd": "01-04-2026 10:00",
             "Temp_Out": 9.0,
-            "RH": 83.0,
-            "THI_Out": 49.1,
+            "RH": 82.0,
+            "THI_Out": 49.2,
             "THI_In": 55.5,
             "Advies": "Geen alert"
         },
