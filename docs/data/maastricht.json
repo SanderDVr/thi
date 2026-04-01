@@ -2,54 +2,38 @@
     "station": "Maastricht",
     "lat": 50.91,
     "lon": 5.77,
-    "updated_at": "2026-03-31 22:14:15",
+    "updated_at": "2026-04-01 00:41:54",
     "forecast": [
         {
-            "Tijd": "01-04-2026 01:00",
-            "Temp_Out": 4.0,
-            "RH": 85.0,
-            "THI_Out": 40.8,
-            "THI_In": 48.7,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "01-04-2026 02:00",
-            "Temp_Out": 2.0,
-            "RH": 92.0,
-            "THI_Out": 36.6,
-            "THI_In": 45.6,
-            "Advies": "Geen alert"
-        },
-        {
             "Tijd": "01-04-2026 03:00",
-            "Temp_Out": 1.0,
-            "RH": 95.0,
-            "THI_Out": 34.5,
-            "THI_In": 43.9,
+            "Temp_Out": 3.0,
+            "RH": 92.0,
+            "THI_Out": 38.3,
+            "THI_In": 47.0,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-04-2026 04:00",
-            "Temp_Out": 1.0,
-            "RH": 98.0,
-            "THI_Out": 34.1,
-            "THI_In": 43.7,
+            "Temp_Out": 2.0,
+            "RH": 96.0,
+            "THI_Out": 36.1,
+            "THI_In": 45.3,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-04-2026 05:00",
-            "Temp_Out": 1.0,
-            "RH": 99.0,
-            "THI_Out": 33.9,
-            "THI_In": 43.6,
+            "Temp_Out": 2.0,
+            "RH": 98.0,
+            "THI_Out": 35.8,
+            "THI_In": 45.1,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-04-2026 06:00",
             "Temp_Out": 2.0,
-            "RH": 100.0,
-            "THI_Out": 35.6,
-            "THI_In": 45.0,
+            "RH": 99.0,
+            "THI_Out": 35.7,
+            "THI_In": 45.1,
             "Advies": "Geen alert"
         },
         {
