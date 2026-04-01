@@ -2,44 +2,36 @@
     "station": "Twenthe",
     "lat": 52.27,
     "lon": 6.89,
-    "updated_at": "2026-04-01 05:02:21",
+    "updated_at": "2026-04-01 06:41:14",
     "forecast": [
         {
-            "Tijd": "01-04-2026 08:00",
-            "Temp_Out": 1.0,
-            "RH": 95.0,
-            "THI_Out": 34.5,
-            "THI_In": 43.9,
-            "Advies": "Geen alert"
-        },
-        {
             "Tijd": "01-04-2026 09:00",
-            "Temp_Out": 4.0,
-            "RH": 86.0,
-            "THI_Out": 40.7,
-            "THI_In": 48.7,
+            "Temp_Out": 3.0,
+            "RH": 88.0,
+            "THI_Out": 38.8,
+            "THI_In": 47.2,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-04-2026 10:00",
-            "Temp_Out": 7.0,
-            "RH": 75.0,
-            "THI_Out": 46.4,
-            "THI_In": 53.1,
+            "Temp_Out": 6.0,
+            "RH": 76.0,
+            "THI_Out": 44.8,
+            "THI_In": 51.8,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-04-2026 11:00",
-            "Temp_Out": 9.0,
-            "RH": 67.0,
-            "THI_Out": 50.0,
-            "THI_In": 55.7,
+            "Temp_Out": 8.0,
+            "RH": 68.0,
+            "THI_Out": 48.4,
+            "THI_In": 54.5,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-04-2026 12:00",
             "Temp_Out": 10.0,
-            "RH": 61.0,
+            "RH": 62.0,
             "THI_Out": 51.7,
             "THI_In": 56.9,
             "Advies": "Geen alert"

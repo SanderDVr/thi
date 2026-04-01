@@ -2,30 +2,22 @@
     "station": "Arnhem",
     "lat": 51.98,
     "lon": 5.91,
-    "updated_at": "2026-04-01 05:02:24",
+    "updated_at": "2026-04-01 06:41:18",
     "forecast": [
-        {
-            "Tijd": "01-04-2026 08:00",
-            "Temp_Out": 3.0,
-            "RH": 97.0,
-            "THI_Out": 37.7,
-            "THI_In": 46.6,
-            "Advies": "Geen alert"
-        },
         {
             "Tijd": "01-04-2026 09:00",
             "Temp_Out": 5.0,
-            "RH": 90.0,
-            "THI_Out": 41.9,
+            "RH": 91.0,
+            "THI_Out": 41.8,
             "THI_In": 49.8,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-04-2026 10:00",
             "Temp_Out": 7.0,
-            "RH": 81.0,
-            "THI_Out": 46.0,
-            "THI_In": 52.9,
+            "RH": 82.0,
+            "THI_Out": 45.9,
+            "THI_In": 52.8,
             "Advies": "Geen alert"
         },
         {
