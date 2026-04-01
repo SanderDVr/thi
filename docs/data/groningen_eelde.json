@@ -2,44 +2,20 @@
     "station": "Groningen (Eelde)",
     "lat": 53.13,
     "lon": 6.58,
-    "updated_at": "2026-04-01 07:36:48",
+    "updated_at": "2026-04-01 10:26:29",
     "forecast": [
-        {
-            "Tijd": "01-04-2026 10:00",
-            "Temp_Out": 5.0,
-            "RH": 91.0,
-            "THI_Out": 41.8,
-            "THI_In": 49.8,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "01-04-2026 11:00",
-            "Temp_Out": 7.0,
-            "RH": 82.0,
-            "THI_Out": 45.9,
-            "THI_In": 52.8,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "01-04-2026 12:00",
-            "Temp_Out": 9.0,
-            "RH": 74.0,
-            "THI_Out": 49.6,
-            "THI_In": 55.6,
-            "Advies": "Geen alert"
-        },
         {
             "Tijd": "01-04-2026 13:00",
             "Temp_Out": 10.0,
-            "RH": 68.0,
-            "THI_Out": 51.4,
+            "RH": 71.0,
+            "THI_Out": 51.3,
             "THI_In": 56.9,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-04-2026 14:00",
             "Temp_Out": 11.0,
-            "RH": 64.0,
+            "RH": 65.0,
             "THI_Out": 53.0,
             "THI_In": 58.1,
             "Advies": "Geen alert"
@@ -47,7 +23,7 @@
         {
             "Tijd": "01-04-2026 15:00",
             "Temp_Out": 12.0,
-            "RH": 61.0,
+            "RH": 62.0,
             "THI_Out": 54.5,
             "THI_In": 59.2,
             "Advies": "Geen alert"
@@ -55,7 +31,7 @@
         {
             "Tijd": "01-04-2026 16:00",
             "Temp_Out": 12.0,
-            "RH": 59.0,
+            "RH": 60.0,
             "THI_Out": 54.6,
             "THI_In": 59.2,
             "Advies": "Geen alert"
@@ -63,7 +39,7 @@
         {
             "Tijd": "01-04-2026 17:00",
             "Temp_Out": 12.0,
-            "RH": 67.0,
+            "RH": 68.0,
             "THI_Out": 54.4,
             "THI_In": 59.3,
             "Advies": "Geen alert"
@@ -71,7 +47,7 @@
         {
             "Tijd": "01-04-2026 18:00",
             "Temp_Out": 11.0,
-            "RH": 76.0,
+            "RH": 77.0,
             "THI_Out": 52.6,
             "THI_In": 58.1,
             "Advies": "Geen alert"
