@@ -2,69 +2,53 @@
     "station": "Eindhoven",
     "lat": 51.45,
     "lon": 5.37,
-    "updated_at": "2026-04-01 20:18:15",
+    "updated_at": "2026-04-01 22:15:41",
     "forecast": [
-        {
-            "Tijd": "01-04-2026 23:00",
-            "Temp_Out": 5.0,
-            "RH": 71.0,
-            "THI_Out": 43.7,
-            "THI_In": 50.7,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "02-04-2026 00:00",
-            "Temp_Out": 4.0,
-            "RH": 74.0,
-            "THI_Out": 41.9,
-            "THI_In": 49.4,
-            "Advies": "Geen alert"
-        },
         {
             "Tijd": "02-04-2026 01:00",
             "Temp_Out": 4.0,
-            "RH": 75.0,
-            "THI_Out": 41.8,
-            "THI_In": 49.3,
+            "RH": 79.0,
+            "THI_Out": 41.4,
+            "THI_In": 49.1,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-04-2026 02:00",
             "Temp_Out": 4.0,
-            "RH": 74.0,
-            "THI_Out": 41.9,
-            "THI_In": 49.4,
+            "RH": 76.0,
+            "THI_Out": 41.7,
+            "THI_In": 49.2,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-04-2026 03:00",
             "Temp_Out": 4.0,
-            "RH": 75.0,
-            "THI_Out": 41.8,
-            "THI_In": 49.3,
+            "RH": 76.0,
+            "THI_Out": 41.7,
+            "THI_In": 49.2,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-04-2026 04:00",
             "Temp_Out": 5.0,
-            "RH": 77.0,
-            "THI_Out": 43.2,
-            "THI_In": 50.5,
+            "RH": 78.0,
+            "THI_Out": 43.1,
+            "THI_In": 50.4,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-04-2026 05:00",
             "Temp_Out": 5.0,
-            "RH": 80.0,
-            "THI_Out": 42.9,
+            "RH": 81.0,
+            "THI_Out": 42.8,
             "THI_In": 50.3,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-04-2026 06:00",
             "Temp_Out": 5.0,
-            "RH": 86.0,
-            "THI_Out": 42.3,
+            "RH": 87.0,
+            "THI_Out": 42.2,
             "THI_In": 50.0,
             "Advies": "Geen alert"
         },

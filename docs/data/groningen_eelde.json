@@ -2,18 +2,18 @@
     "station": "Groningen (Eelde)",
     "lat": 53.13,
     "lon": 6.58,
-    "updated_at": "2026-04-01 20:18:12",
+    "updated_at": "2026-04-01 22:15:37",
     "forecast": [
         {
-            "Tijd": "01-04-2026 23:00",
-            "Temp_Out": 5.0,
-            "RH": 76.0,
-            "THI_Out": 43.3,
-            "THI_In": 50.5,
+            "Tijd": "02-04-2026 01:00",
+            "Temp_Out": 4.0,
+            "RH": 83.0,
+            "THI_Out": 41.0,
+            "THI_In": 48.9,
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "02-04-2026 00:00",
+            "Tijd": "02-04-2026 02:00",
             "Temp_Out": 4.0,
             "RH": 80.0,
             "THI_Out": 41.3,
@@ -21,42 +21,26 @@
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "02-04-2026 01:00",
-            "Temp_Out": 4.0,
-            "RH": 81.0,
-            "THI_Out": 41.2,
-            "THI_In": 49.0,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "02-04-2026 02:00",
-            "Temp_Out": 4.0,
-            "RH": 79.0,
-            "THI_Out": 41.4,
-            "THI_In": 49.1,
-            "Advies": "Geen alert"
-        },
-        {
             "Tijd": "02-04-2026 03:00",
             "Temp_Out": 4.0,
-            "RH": 77.0,
-            "THI_Out": 41.6,
-            "THI_In": 49.2,
+            "RH": 78.0,
+            "THI_Out": 41.5,
+            "THI_In": 49.1,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-04-2026 04:00",
             "Temp_Out": 5.0,
-            "RH": 76.0,
-            "THI_Out": 43.3,
+            "RH": 77.0,
+            "THI_Out": 43.2,
             "THI_In": 50.5,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-04-2026 05:00",
             "Temp_Out": 5.0,
-            "RH": 76.0,
-            "THI_Out": 43.3,
+            "RH": 77.0,
+            "THI_Out": 43.2,
             "THI_In": 50.5,
             "Advies": "Geen alert"
         },
