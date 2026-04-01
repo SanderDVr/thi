@@ -2,16 +2,8 @@
     "station": "Den Helder",
     "lat": 52.92,
     "lon": 4.78,
-    "updated_at": "2026-04-01 17:23:10",
+    "updated_at": "2026-04-01 18:24:05",
     "forecast": [
-        {
-            "Tijd": "01-04-2026 20:00",
-            "Temp_Out": 9.0,
-            "RH": 87.0,
-            "THI_Out": 48.9,
-            "THI_In": 55.4,
-            "Advies": "Geen alert"
-        },
         {
             "Tijd": "01-04-2026 21:00",
             "Temp_Out": 8.0,

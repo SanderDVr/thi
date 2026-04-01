@@ -12,8 +12,16 @@
         "file": "rotterdam.json"
     },
     {
+        "name": "Vlissingen",
+        "file": "vlissingen.json"
+    },
+    {
         "name": "Den Helder",
         "file": "den_helder.json"
+    },
+    {
+        "name": "Twenthe",
+        "file": "twenthe.json"
     },
     {
         "name": "Lelystad",
