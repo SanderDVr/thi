@@ -2,44 +2,28 @@
     "station": "Leeuwarden",
     "lat": 53.22,
     "lon": 5.75,
-    "updated_at": "2026-04-01 09:31:07",
+    "updated_at": "2026-04-01 11:24:14",
     "forecast": [
-        {
-            "Tijd": "01-04-2026 12:00",
-            "Temp_Out": 10.0,
-            "RH": 74.0,
-            "THI_Out": 51.1,
-            "THI_In": 56.8,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "01-04-2026 13:00",
-            "Temp_Out": 11.0,
-            "RH": 74.0,
-            "THI_Out": 52.7,
-            "THI_In": 58.1,
-            "Advies": "Geen alert"
-        },
         {
             "Tijd": "01-04-2026 14:00",
             "Temp_Out": 11.0,
-            "RH": 74.0,
-            "THI_Out": 52.7,
+            "RH": 67.0,
+            "THI_Out": 52.9,
             "THI_In": 58.1,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-04-2026 15:00",
             "Temp_Out": 11.0,
-            "RH": 74.0,
-            "THI_Out": 52.7,
+            "RH": 70.0,
+            "THI_Out": 52.8,
             "THI_In": 58.1,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-04-2026 16:00",
             "Temp_Out": 11.0,
-            "RH": 72.0,
+            "RH": 70.0,
             "THI_Out": 52.8,
             "THI_In": 58.1,
             "Advies": "Geen alert"
@@ -47,7 +31,7 @@
         {
             "Tijd": "01-04-2026 17:00",
             "Temp_Out": 11.0,
-            "RH": 72.0,
+            "RH": 71.0,
             "THI_Out": 52.8,
             "THI_In": 58.1,
             "Advies": "Geen alert"
@@ -55,8 +39,8 @@
         {
             "Tijd": "01-04-2026 18:00",
             "Temp_Out": 10.0,
-            "RH": 77.0,
-            "THI_Out": 51.0,
+            "RH": 76.0,
+            "THI_Out": 51.1,
             "THI_In": 56.8,
             "Advies": "Geen alert"
         },
