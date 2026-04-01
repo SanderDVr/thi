@@ -2,26 +2,10 @@
     "station": "Goutum",
     "lat": 53.18,
     "lon": 5.8,
-    "updated_at": "2026-04-01 16:24:50",
+    "updated_at": "2026-04-01 19:28:15",
     "forecast": [
         {
-            "Tijd": "01-04-2026 19:00",
-            "Temp_Out": 9.0,
-            "RH": 76.0,
-            "THI_Out": 49.5,
-            "THI_In": 55.6,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "01-04-2026 20:00",
-            "Temp_Out": 7.0,
-            "RH": 84.0,
-            "THI_Out": 45.8,
-            "THI_In": 52.8,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "01-04-2026 21:00",
+            "Tijd": "01-04-2026 22:00",
             "Temp_Out": 6.0,
             "RH": 89.0,
             "THI_Out": 43.7,
@@ -29,51 +13,43 @@
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "01-04-2026 22:00",
-            "Temp_Out": 5.0,
-            "RH": 91.0,
-            "THI_Out": 41.8,
-            "THI_In": 49.8,
-            "Advies": "Geen alert"
-        },
-        {
             "Tijd": "01-04-2026 23:00",
-            "Temp_Out": 5.0,
-            "RH": 90.0,
-            "THI_Out": 41.9,
-            "THI_In": 49.8,
+            "Temp_Out": 6.0,
+            "RH": 89.0,
+            "THI_Out": 43.7,
+            "THI_In": 51.3,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-04-2026 00:00",
-            "Temp_Out": 5.0,
+            "Temp_Out": 6.0,
             "RH": 89.0,
-            "THI_Out": 42.0,
-            "THI_In": 49.9,
+            "THI_Out": 43.7,
+            "THI_In": 51.3,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-04-2026 01:00",
-            "Temp_Out": 5.0,
+            "Temp_Out": 6.0,
             "RH": 90.0,
-            "THI_Out": 41.9,
-            "THI_In": 49.8,
+            "THI_Out": 43.6,
+            "THI_In": 51.2,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-04-2026 02:00",
-            "Temp_Out": 5.0,
+            "Temp_Out": 6.0,
             "RH": 92.0,
-            "THI_Out": 41.8,
-            "THI_In": 49.8,
+            "THI_Out": 43.5,
+            "THI_In": 51.1,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-04-2026 03:00",
-            "Temp_Out": 5.0,
+            "Temp_Out": 6.0,
             "RH": 95.0,
-            "THI_Out": 41.5,
-            "THI_In": 49.6,
+            "THI_Out": 43.2,
+            "THI_In": 51.0,
             "Advies": "Geen alert"
         },
         {
