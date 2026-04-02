@@ -2,42 +2,18 @@
     "station": "Den Helder",
     "lat": 52.92,
     "lon": 4.78,
-    "updated_at": "2026-04-02 01:38:52",
+    "updated_at": "2026-04-02 03:09:12",
     "forecast": [
-        {
-            "Tijd": "02-04-2026 04:00",
-            "Temp_Out": 8.0,
-            "RH": 91.0,
-            "THI_Out": 47.0,
-            "THI_In": 54.0,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "02-04-2026 05:00",
-            "Temp_Out": 8.0,
-            "RH": 92.0,
-            "THI_Out": 46.9,
-            "THI_In": 53.9,
-            "Advies": "Geen alert"
-        },
         {
             "Tijd": "02-04-2026 06:00",
             "Temp_Out": 8.0,
-            "RH": 95.0,
+            "RH": 96.0,
             "THI_Out": 46.7,
-            "THI_In": 53.9,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "02-04-2026 07:00",
-            "Temp_Out": 8.0,
-            "RH": 97.0,
-            "THI_Out": 46.6,
             "THI_In": 53.8,
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "02-04-2026 08:00",
+            "Tijd": "02-04-2026 07:00",
             "Temp_Out": 8.0,
             "RH": 98.0,
             "THI_Out": 46.5,
@@ -45,11 +21,19 @@
             "Advies": "Geen alert"
         },
         {
+            "Tijd": "02-04-2026 08:00",
+            "Temp_Out": 8.0,
+            "RH": 99.0,
+            "THI_Out": 46.5,
+            "THI_In": 53.8,
+            "Advies": "Geen alert"
+        },
+        {
             "Tijd": "02-04-2026 09:00",
             "Temp_Out": 8.0,
-            "RH": 95.0,
+            "RH": 96.0,
             "THI_Out": 46.7,
-            "THI_In": 53.9,
+            "THI_In": 53.8,
             "Advies": "Geen alert"
         },
         {
