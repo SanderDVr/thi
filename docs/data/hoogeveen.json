@@ -2,46 +2,38 @@
     "station": "Hoogeveen",
     "lat": 52.75,
     "lon": 6.52,
-    "updated_at": "2026-04-02 05:36:18",
+    "updated_at": "2026-04-02 06:32:40",
     "forecast": [
-        {
-            "Tijd": "02-04-2026 08:00",
-            "Temp_Out": 5.0,
-            "RH": 79.0,
-            "THI_Out": 43.0,
-            "THI_In": 50.4,
-            "Advies": "Geen alert"
-        },
         {
             "Tijd": "02-04-2026 09:00",
             "Temp_Out": 6.0,
-            "RH": 82.0,
-            "THI_Out": 44.3,
-            "THI_In": 51.5,
+            "RH": 85.0,
+            "THI_Out": 44.1,
+            "THI_In": 51.4,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-04-2026 10:00",
             "Temp_Out": 6.0,
-            "RH": 86.0,
-            "THI_Out": 44.0,
-            "THI_In": 51.4,
+            "RH": 87.0,
+            "THI_Out": 43.9,
+            "THI_In": 51.3,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-04-2026 11:00",
             "Temp_Out": 7.0,
-            "RH": 88.0,
-            "THI_Out": 45.5,
-            "THI_In": 52.7,
+            "RH": 89.0,
+            "THI_Out": 45.4,
+            "THI_In": 52.6,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-04-2026 12:00",
             "Temp_Out": 8.0,
-            "RH": 91.0,
-            "THI_Out": 47.0,
-            "THI_In": 54.0,
+            "RH": 92.0,
+            "THI_Out": 46.9,
+            "THI_In": 53.9,
             "Advies": "Geen alert"
         },
         {
