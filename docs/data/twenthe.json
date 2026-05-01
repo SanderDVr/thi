@@ -2,24 +2,8 @@
     "station": "Twenthe",
     "lat": 52.27,
     "lon": 6.89,
-    "updated_at": "2026-04-30 22:23:01",
+    "updated_at": "2026-05-01 00:52:27",
     "forecast": [
-        {
-            "Tijd": "01-05-2026 01:00",
-            "Temp_Out": 11.0,
-            "RH": 54.0,
-            "THI_Out": 53.4,
-            "THI_In": 58.1,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "01-05-2026 02:00",
-            "Temp_Out": 10.0,
-            "RH": 56.0,
-            "THI_Out": 51.9,
-            "THI_In": 57.0,
-            "Advies": "Geen alert"
-        },
         {
             "Tijd": "01-05-2026 03:00",
             "Temp_Out": 10.0,

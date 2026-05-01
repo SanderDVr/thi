@@ -2,28 +2,20 @@
     "station": "Vlissingen",
     "lat": 51.45,
     "lon": 3.6,
-    "updated_at": "2026-04-30 23:22:51",
+    "updated_at": "2026-05-01 00:52:25",
     "forecast": [
         {
-            "Tijd": "01-05-2026 02:00",
-            "Temp_Out": 14.0,
-            "RH": 54.0,
-            "THI_Out": 57.4,
-            "THI_In": 61.3,
-            "Advies": "Geen alert"
-        },
-        {
             "Tijd": "01-05-2026 03:00",
-            "Temp_Out": 14.0,
-            "RH": 54.0,
-            "THI_Out": 57.4,
-            "THI_In": 61.3,
+            "Temp_Out": 13.0,
+            "RH": 52.0,
+            "THI_Out": 56.1,
+            "THI_In": 60.2,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-05-2026 04:00",
             "Temp_Out": 13.0,
-            "RH": 53.0,
+            "RH": 52.0,
             "THI_Out": 56.1,
             "THI_In": 60.2,
             "Advies": "Geen alert"

@@ -2,36 +2,20 @@
     "station": "Rotterdam",
     "lat": 51.95,
     "lon": 4.44,
-    "updated_at": "2026-04-30 22:22:59",
+    "updated_at": "2026-05-01 00:52:24",
     "forecast": [
         {
-            "Tijd": "01-05-2026 01:00",
-            "Temp_Out": 13.0,
-            "RH": 43.0,
-            "THI_Out": 56.2,
-            "THI_In": 60.0,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "01-05-2026 02:00",
-            "Temp_Out": 13.0,
-            "RH": 43.0,
-            "THI_Out": 56.2,
-            "THI_In": 60.0,
-            "Advies": "Geen alert"
-        },
-        {
             "Tijd": "01-05-2026 03:00",
-            "Temp_Out": 13.0,
-            "RH": 43.0,
-            "THI_Out": 56.2,
-            "THI_In": 60.0,
+            "Temp_Out": 12.0,
+            "RH": 47.0,
+            "THI_Out": 54.9,
+            "THI_In": 59.1,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-05-2026 04:00",
             "Temp_Out": 12.0,
-            "RH": 44.0,
+            "RH": 46.0,
             "THI_Out": 54.9,
             "THI_In": 59.1,
             "Advies": "Geen alert"
@@ -39,7 +23,7 @@
         {
             "Tijd": "01-05-2026 05:00",
             "Temp_Out": 11.0,
-            "RH": 46.0,
+            "RH": 47.0,
             "THI_Out": 53.6,
             "THI_In": 58.1,
             "Advies": "Geen alert"
