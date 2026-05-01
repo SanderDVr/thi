@@ -1,27 +1,15 @@
 [
     {
-        "name": "De Bilt",
-        "file": "de_bilt.json"
-    },
-    {
-        "name": "Groningen (Eelde)",
-        "file": "groningen_eelde.json"
+        "name": "Leeuwarden",
+        "file": "leeuwarden.json"
     },
     {
         "name": "Maastricht",
         "file": "maastricht.json"
     },
     {
-        "name": "Rotterdam",
-        "file": "rotterdam.json"
-    },
-    {
-        "name": "Vlissingen",
-        "file": "vlissingen.json"
-    },
-    {
-        "name": "Eindhoven",
-        "file": "eindhoven.json"
+        "name": "Twenthe",
+        "file": "twenthe.json"
     },
     {
         "name": "Lelystad",
@@ -34,9 +22,5 @@
     {
         "name": "Alkmaar",
         "file": "alkmaar.json"
-    },
-    {
-        "name": "Arnhem",
-        "file": "arnhem.json"
     }
 ]

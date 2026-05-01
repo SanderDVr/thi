@@ -2,28 +2,20 @@
     "station": "Lelystad",
     "lat": 52.45,
     "lon": 5.52,
-    "updated_at": "2026-05-01 18:28:41",
+    "updated_at": "2026-05-01 19:31:47",
     "forecast": [
-        {
-            "Tijd": "01-05-2026 21:00",
-            "Temp_Out": 18.0,
-            "RH": 37.0,
-            "THI_Out": 62.1,
-            "THI_In": 64.7,
-            "Advies": "Geen alert"
-        },
         {
             "Tijd": "01-05-2026 22:00",
             "Temp_Out": 16.0,
-            "RH": 44.0,
+            "RH": 42.0,
             "THI_Out": 59.9,
-            "THI_In": 63.1,
+            "THI_In": 63.0,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-05-2026 23:00",
             "Temp_Out": 14.0,
-            "RH": 49.0,
+            "RH": 48.0,
             "THI_Out": 57.4,
             "THI_In": 61.2,
             "Advies": "Geen alert"
