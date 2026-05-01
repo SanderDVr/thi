@@ -2,50 +2,50 @@
     "station": "Maastricht",
     "lat": 50.91,
     "lon": 5.77,
-    "updated_at": "2026-05-01 17:26:03",
+    "updated_at": "2026-05-01 18:28:38",
     "forecast": [
         {
-            "Tijd": "01-05-2026 20:00",
-            "Temp_Out": 20.0,
-            "RH": 36.0,
-            "THI_Out": 64.4,
-            "THI_In": 66.5,
-            "Advies": "Geen alert"
-        },
-        {
             "Tijd": "01-05-2026 21:00",
-            "Temp_Out": 17.0,
-            "RH": 47.0,
-            "THI_Out": 61.2,
-            "THI_In": 64.2,
+            "Temp_Out": 18.0,
+            "RH": 40.0,
+            "THI_Out": 62.2,
+            "THI_In": 64.9,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-05-2026 22:00",
-            "Temp_Out": 15.0,
-            "RH": 50.0,
-            "THI_Out": 58.7,
-            "THI_In": 62.3,
+            "Temp_Out": 16.0,
+            "RH": 47.0,
+            "THI_Out": 60.0,
+            "THI_In": 63.2,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-05-2026 23:00",
+            "Temp_Out": 15.0,
+            "RH": 49.0,
+            "THI_Out": 58.7,
+            "THI_In": 62.2,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "02-05-2026 00:00",
             "Temp_Out": 14.0,
-            "RH": 51.0,
+            "RH": 50.0,
             "THI_Out": 57.4,
             "THI_In": 61.2,
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "02-05-2026 00:00",
+            "Tijd": "02-05-2026 01:00",
             "Temp_Out": 13.0,
-            "RH": 51.0,
+            "RH": 52.0,
             "THI_Out": 56.1,
             "THI_In": 60.2,
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "02-05-2026 01:00",
+            "Tijd": "02-05-2026 02:00",
             "Temp_Out": 12.0,
             "RH": 53.0,
             "THI_Out": 54.7,
@@ -53,41 +53,33 @@
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "02-05-2026 02:00",
-            "Temp_Out": 11.0,
-            "RH": 54.0,
-            "THI_Out": 53.4,
-            "THI_In": 58.1,
-            "Advies": "Geen alert"
-        },
-        {
             "Tijd": "02-05-2026 03:00",
-            "Temp_Out": 11.0,
-            "RH": 54.0,
-            "THI_Out": 53.4,
-            "THI_In": 58.1,
+            "Temp_Out": 12.0,
+            "RH": 53.0,
+            "THI_Out": 54.7,
+            "THI_In": 59.1,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-05-2026 04:00",
             "Temp_Out": 11.0,
-            "RH": 55.0,
-            "THI_Out": 53.3,
+            "RH": 54.0,
+            "THI_Out": 53.4,
             "THI_In": 58.1,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-05-2026 05:00",
             "Temp_Out": 12.0,
-            "RH": 53.0,
-            "THI_Out": 54.7,
+            "RH": 52.0,
+            "THI_Out": 54.8,
             "THI_In": 59.1,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-05-2026 06:00",
             "Temp_Out": 13.0,
-            "RH": 56.0,
+            "RH": 55.0,
             "THI_Out": 56.0,
             "THI_In": 60.3,
             "Advies": "Geen alert"
