@@ -2,30 +2,14 @@
     "station": "Groningen (Eelde)",
     "lat": 53.13,
     "lon": 6.58,
-    "updated_at": "2026-05-01 03:12:32",
+    "updated_at": "2026-05-01 05:20:53",
     "forecast": [
         {
-            "Tijd": "01-05-2026 06:00",
-            "Temp_Out": 7.0,
-            "RH": 69.0,
-            "THI_Out": 46.9,
-            "THI_In": 53.3,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "01-05-2026 07:00",
-            "Temp_Out": 8.0,
-            "RH": 66.0,
-            "THI_Out": 48.6,
-            "THI_In": 54.5,
-            "Advies": "Geen alert"
-        },
-        {
             "Tijd": "01-05-2026 08:00",
-            "Temp_Out": 10.0,
-            "RH": 59.0,
-            "THI_Out": 51.8,
-            "THI_In": 56.9,
+            "Temp_Out": 11.0,
+            "RH": 58.0,
+            "THI_Out": 53.2,
+            "THI_In": 58.1,
             "Advies": "Geen alert"
         },
         {
