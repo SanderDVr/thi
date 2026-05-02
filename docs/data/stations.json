@@ -12,12 +12,16 @@
         "file": "rotterdam.json"
     },
     {
-        "name": "Lelystad",
-        "file": "lelystad.json"
+        "name": "Vlissingen",
+        "file": "vlissingen.json"
     },
     {
-        "name": "Hoogeveen",
-        "file": "hoogeveen.json"
+        "name": "Den Helder",
+        "file": "den_helder.json"
+    },
+    {
+        "name": "Zwolle",
+        "file": "zwolle.json"
     },
     {
         "name": "Arnhem",
