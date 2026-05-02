@@ -4,8 +4,8 @@
         "file": "leeuwarden.json"
     },
     {
-        "name": "Maastricht",
-        "file": "maastricht.json"
+        "name": "Groningen (Eelde)",
+        "file": "groningen_eelde.json"
     },
     {
         "name": "Rotterdam",
@@ -16,8 +16,16 @@
         "file": "vlissingen.json"
     },
     {
+        "name": "Twenthe",
+        "file": "twenthe.json"
+    },
+    {
         "name": "Eindhoven",
         "file": "eindhoven.json"
+    },
+    {
+        "name": "Lelystad",
+        "file": "lelystad.json"
     },
     {
         "name": "Hoogeveen",
