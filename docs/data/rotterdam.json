@@ -2,70 +2,54 @@
     "station": "Rotterdam",
     "lat": 51.95,
     "lon": 4.44,
-    "updated_at": "2026-05-02 07:36:28",
+    "updated_at": "2026-05-02 09:29:39",
     "forecast": [
-        {
-            "Tijd": "02-05-2026 10:00",
-            "Temp_Out": 16.0,
-            "RH": 84.0,
-            "THI_Out": 60.5,
-            "THI_In": 64.7,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "02-05-2026 11:00",
-            "Temp_Out": 18.0,
-            "RH": 74.0,
-            "THI_Out": 63.5,
-            "THI_In": 66.8,
-            "Advies": "Geen alert"
-        },
         {
             "Tijd": "02-05-2026 12:00",
             "Temp_Out": 19.0,
-            "RH": 68.0,
-            "THI_Out": 64.7,
-            "THI_In": 67.7,
+            "RH": 73.0,
+            "THI_Out": 65.0,
+            "THI_In": 68.0,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-05-2026 13:00",
             "Temp_Out": 20.0,
-            "RH": 60.0,
-            "THI_Out": 65.8,
-            "THI_In": 68.3,
+            "RH": 63.0,
+            "THI_Out": 65.9,
+            "THI_In": 68.5,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-05-2026 14:00",
             "Temp_Out": 21.0,
-            "RH": 53.0,
-            "THI_Out": 66.7,
-            "THI_In": 68.8,
+            "RH": 55.0,
+            "THI_Out": 66.8,
+            "THI_In": 69.0,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-05-2026 15:00",
             "Temp_Out": 22.0,
-            "RH": 49.0,
-            "THI_Out": 67.7,
+            "RH": 50.0,
+            "THI_Out": 67.8,
             "THI_In": 69.6,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-05-2026 16:00",
             "Temp_Out": 23.0,
-            "RH": 45.0,
-            "THI_Out": 68.7,
-            "THI_In": 70.2,
+            "RH": 46.0,
+            "THI_Out": 68.8,
+            "THI_In": 70.3,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-05-2026 17:00",
             "Temp_Out": 23.0,
-            "RH": 42.0,
-            "THI_Out": 68.4,
-            "THI_In": 69.9,
+            "RH": 43.0,
+            "THI_Out": 68.5,
+            "THI_In": 70.0,
             "Advies": "Geen alert"
         },
         {
