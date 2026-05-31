@@ -1,1 +1,34 @@
-[]
+[
+    {
+        "name": "Leeuwarden",
+        "file": "leeuwarden.json"
+    },
+    {
+        "name": "Maastricht",
+        "file": "maastricht.json"
+    },
+    {
+        "name": "Rotterdam",
+        "file": "rotterdam.json"
+    },
+    {
+        "name": "Vlissingen",
+        "file": "vlissingen.json"
+    },
+    {
+        "name": "Den Helder",
+        "file": "den_helder.json"
+    },
+    {
+        "name": "Twenthe",
+        "file": "twenthe.json"
+    },
+    {
+        "name": "Lelystad",
+        "file": "lelystad.json"
+    },
+    {
+        "name": "Alkmaar",
+        "file": "alkmaar.json"
+    }
+]
