@@ -2,62 +2,46 @@
     "station": "Zwolle",
     "lat": 52.51,
     "lon": 6.09,
-    "updated_at": "2026-06-01 07:55:30",
+    "updated_at": "2026-06-01 09:57:04",
     "forecast": [
         {
-            "Tijd": "01-06-2026 10:00",
-            "Temp_Out": 20.0,
-            "RH": 62.0,
-            "THI_Out": 65.9,
-            "THI_In": 68.4,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "01-06-2026 11:00",
-            "Temp_Out": 21.0,
-            "RH": 54.0,
-            "THI_Out": 66.8,
-            "THI_In": 68.9,
-            "Advies": "Geen alert"
-        },
-        {
             "Tijd": "01-06-2026 12:00",
-            "Temp_Out": 22.0,
-            "RH": 49.0,
-            "THI_Out": 67.7,
-            "THI_In": 69.6,
+            "Temp_Out": 21.0,
+            "RH": 53.0,
+            "THI_Out": 66.7,
+            "THI_In": 68.8,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-06-2026 13:00",
-            "Temp_Out": 23.0,
-            "RH": 45.0,
-            "THI_Out": 68.7,
-            "THI_In": 70.2,
+            "Temp_Out": 22.0,
+            "RH": 47.0,
+            "THI_Out": 67.6,
+            "THI_In": 69.4,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-06-2026 14:00",
-            "Temp_Out": 24.0,
-            "RH": 42.0,
-            "THI_Out": 69.6,
-            "THI_In": 70.9,
+            "Temp_Out": 23.0,
+            "RH": 43.0,
+            "THI_Out": 68.5,
+            "THI_In": 70.0,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-06-2026 15:00",
             "Temp_Out": 24.0,
-            "RH": 40.0,
-            "THI_Out": 69.4,
-            "THI_In": 70.7,
+            "RH": 41.0,
+            "THI_Out": 69.5,
+            "THI_In": 70.8,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-06-2026 16:00",
             "Temp_Out": 24.0,
-            "RH": 40.0,
-            "THI_Out": 69.4,
-            "THI_In": 70.7,
+            "RH": 41.0,
+            "THI_Out": 69.5,
+            "THI_In": 70.8,
             "Advies": "Geen alert"
         },
         {
