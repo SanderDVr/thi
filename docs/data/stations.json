@@ -8,16 +8,28 @@
         "file": "de_bilt.json"
     },
     {
+        "name": "Groningen (Eelde)",
+        "file": "groningen_eelde.json"
+    },
+    {
         "name": "Rotterdam",
         "file": "rotterdam.json"
     },
     {
-        "name": "Vlissingen",
-        "file": "vlissingen.json"
+        "name": "Den Helder",
+        "file": "den_helder.json"
+    },
+    {
+        "name": "Twenthe",
+        "file": "twenthe.json"
     },
     {
         "name": "Eindhoven",
         "file": "eindhoven.json"
+    },
+    {
+        "name": "Lelystad",
+        "file": "lelystad.json"
     },
     {
         "name": "Hoogeveen",
@@ -26,5 +38,9 @@
     {
         "name": "Zwolle",
         "file": "zwolle.json"
+    },
+    {
+        "name": "Arnhem",
+        "file": "arnhem.json"
     }
 ]

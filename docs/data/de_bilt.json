@@ -2,26 +2,10 @@
     "station": "De Bilt",
     "lat": 52.1,
     "lon": 5.18,
-    "updated_at": "2026-06-01 12:06:36",
+    "updated_at": "2026-06-01 15:09:27",
     "forecast": [
         {
-            "Tijd": "01-06-2026 15:00",
-            "Temp_Out": 23.0,
-            "RH": 48.0,
-            "THI_Out": 68.9,
-            "THI_In": 70.5,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "01-06-2026 16:00",
-            "Temp_Out": 23.0,
-            "RH": 48.0,
-            "THI_Out": 68.9,
-            "THI_In": 70.5,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "01-06-2026 17:00",
+            "Tijd": "01-06-2026 18:00",
             "Temp_Out": 23.0,
             "RH": 49.0,
             "THI_Out": 69.0,
@@ -29,43 +13,35 @@
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "01-06-2026 18:00",
-            "Temp_Out": 23.0,
-            "RH": 51.0,
-            "THI_Out": 69.2,
-            "THI_In": 70.8,
-            "Advies": "Geen alert"
-        },
-        {
             "Tijd": "01-06-2026 19:00",
             "Temp_Out": 22.0,
-            "RH": 55.0,
-            "THI_Out": 68.2,
-            "THI_In": 70.1,
+            "RH": 54.0,
+            "THI_Out": 68.1,
+            "THI_In": 70.0,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-06-2026 20:00",
             "Temp_Out": 21.0,
-            "RH": 59.0,
-            "THI_Out": 67.1,
-            "THI_In": 69.3,
+            "RH": 58.0,
+            "THI_Out": 67.0,
+            "THI_In": 69.2,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-06-2026 21:00",
             "Temp_Out": 20.0,
-            "RH": 60.0,
-            "THI_Out": 65.8,
-            "THI_In": 68.3,
+            "RH": 59.0,
+            "THI_Out": 65.7,
+            "THI_In": 68.2,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-06-2026 22:00",
             "Temp_Out": 19.0,
-            "RH": 61.0,
+            "RH": 60.0,
             "THI_Out": 64.4,
-            "THI_In": 67.2,
+            "THI_In": 67.1,
             "Advies": "Geen alert"
         },
         {

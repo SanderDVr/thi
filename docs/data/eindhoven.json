@@ -2,86 +2,62 @@
     "station": "Eindhoven",
     "lat": 51.45,
     "lon": 5.37,
-    "updated_at": "2026-06-01 12:06:40",
+    "updated_at": "2026-06-01 15:09:31",
     "forecast": [
         {
-            "Tijd": "01-06-2026 15:00",
-            "Temp_Out": 23.0,
-            "RH": 48.0,
-            "THI_Out": 68.9,
-            "THI_In": 70.5,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "01-06-2026 16:00",
-            "Temp_Out": 23.0,
-            "RH": 48.0,
-            "THI_Out": 68.9,
-            "THI_In": 70.5,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "01-06-2026 17:00",
-            "Temp_Out": 23.0,
-            "RH": 48.0,
-            "THI_Out": 68.9,
-            "THI_In": 70.5,
-            "Advies": "Geen alert"
-        },
-        {
             "Tijd": "01-06-2026 18:00",
-            "Temp_Out": 23.0,
-            "RH": 49.0,
-            "THI_Out": 69.0,
-            "THI_In": 70.6,
+            "Temp_Out": 24.0,
+            "RH": 46.0,
+            "THI_Out": 70.0,
+            "THI_In": 71.3,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-06-2026 19:00",
             "Temp_Out": 23.0,
-            "RH": 52.0,
-            "THI_Out": 69.3,
-            "THI_In": 70.9,
+            "RH": 50.0,
+            "THI_Out": 69.1,
+            "THI_In": 70.7,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-06-2026 20:00",
             "Temp_Out": 23.0,
-            "RH": 55.0,
-            "THI_Out": 69.5,
-            "THI_In": 71.2,
+            "RH": 54.0,
+            "THI_Out": 69.4,
+            "THI_In": 71.1,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-06-2026 21:00",
             "Temp_Out": 22.0,
-            "RH": 58.0,
-            "THI_Out": 68.4,
-            "THI_In": 70.4,
+            "RH": 57.0,
+            "THI_Out": 68.3,
+            "THI_In": 70.3,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-06-2026 22:00",
             "Temp_Out": 21.0,
-            "RH": 61.0,
+            "RH": 60.0,
             "THI_Out": 67.2,
-            "THI_In": 69.5,
+            "THI_In": 69.4,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "01-06-2026 23:00",
             "Temp_Out": 20.0,
-            "RH": 64.0,
-            "THI_Out": 66.0,
-            "THI_In": 68.6,
+            "RH": 63.0,
+            "THI_Out": 65.9,
+            "THI_In": 68.5,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "02-06-2026 00:00",
             "Temp_Out": 19.0,
-            "RH": 68.0,
+            "RH": 67.0,
             "THI_Out": 64.7,
-            "THI_In": 67.7,
+            "THI_In": 67.6,
             "Advies": "Geen alert"
         },
         {
