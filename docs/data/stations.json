@@ -1,15 +1,11 @@
 [
     {
-        "name": "Goutum",
-        "file": "goutum.json"
+        "name": "Leeuwarden",
+        "file": "leeuwarden.json"
     },
     {
-        "name": "De Bilt",
-        "file": "de_bilt.json"
-    },
-    {
-        "name": "Groningen (Eelde)",
-        "file": "groningen_eelde.json"
+        "name": "Maastricht",
+        "file": "maastricht.json"
     },
     {
         "name": "Rotterdam",
@@ -20,12 +16,8 @@
         "file": "den_helder.json"
     },
     {
-        "name": "Eindhoven",
-        "file": "eindhoven.json"
-    },
-    {
-        "name": "Hoogeveen",
-        "file": "hoogeveen.json"
+        "name": "Alkmaar",
+        "file": "alkmaar.json"
     },
     {
         "name": "Zwolle",
