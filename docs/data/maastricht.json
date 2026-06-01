@@ -2,38 +2,14 @@
     "station": "Maastricht",
     "lat": 50.91,
     "lon": 5.77,
-    "updated_at": "2026-05-31 22:24:55",
+    "updated_at": "2026-06-01 01:02:18",
     "forecast": [
-        {
-            "Tijd": "01-06-2026 01:00",
-            "Temp_Out": 17.0,
-            "RH": 87.0,
-            "THI_Out": 62.3,
-            "THI_In": 66.2,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "01-06-2026 02:00",
-            "Temp_Out": 16.0,
-            "RH": 88.0,
-            "THI_Out": 60.6,
-            "THI_In": 64.9,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "01-06-2026 03:00",
-            "Temp_Out": 16.0,
-            "RH": 88.0,
-            "THI_Out": 60.6,
-            "THI_In": 64.9,
-            "Advies": "Geen alert"
-        },
         {
             "Tijd": "01-06-2026 04:00",
             "Temp_Out": 15.0,
-            "RH": 88.0,
+            "RH": 89.0,
             "THI_Out": 58.9,
-            "THI_In": 63.5,
+            "THI_In": 63.6,
             "Advies": "Geen alert"
         },
         {
