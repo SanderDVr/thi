@@ -8,16 +8,12 @@
         "file": "vlissingen.json"
     },
     {
-        "name": "Den Helder",
-        "file": "den_helder.json"
+        "name": "Twenthe",
+        "file": "twenthe.json"
     },
     {
-        "name": "Eindhoven",
-        "file": "eindhoven.json"
-    },
-    {
-        "name": "Hoogeveen",
-        "file": "hoogeveen.json"
+        "name": "Lelystad",
+        "file": "lelystad.json"
     },
     {
         "name": "Alkmaar",
