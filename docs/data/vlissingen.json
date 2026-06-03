@@ -2,26 +2,26 @@
     "station": "Vlissingen",
     "lat": 51.45,
     "lon": 3.6,
-    "updated_at": "2026-06-03 07:49:59",
+    "updated_at": "2026-06-03 11:41:39",
     "forecast": [
         {
-            "Tijd": "03-06-2026 10:00",
-            "Temp_Out": 15.0,
-            "RH": 86.0,
-            "THI_Out": 58.9,
-            "THI_In": 63.5,
+            "Tijd": "03-06-2026 14:00",
+            "Temp_Out": 17.0,
+            "RH": 68.0,
+            "THI_Out": 61.8,
+            "THI_In": 65.3,
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "03-06-2026 11:00",
-            "Temp_Out": 15.0,
-            "RH": 85.0,
-            "THI_Out": 58.9,
-            "THI_In": 63.4,
+            "Tijd": "03-06-2026 15:00",
+            "Temp_Out": 16.0,
+            "RH": 74.0,
+            "THI_Out": 60.4,
+            "THI_In": 64.3,
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "03-06-2026 12:00",
+            "Tijd": "03-06-2026 16:00",
             "Temp_Out": 15.0,
             "RH": 80.0,
             "THI_Out": 58.9,
@@ -29,43 +29,11 @@
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "03-06-2026 13:00",
-            "Temp_Out": 16.0,
-            "RH": 75.0,
-            "THI_Out": 60.4,
-            "THI_In": 64.4,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "03-06-2026 14:00",
-            "Temp_Out": 16.0,
-            "RH": 73.0,
-            "THI_Out": 60.4,
-            "THI_In": 64.3,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "03-06-2026 15:00",
-            "Temp_Out": 16.0,
-            "RH": 77.0,
-            "THI_Out": 60.4,
-            "THI_In": 64.5,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "03-06-2026 16:00",
-            "Temp_Out": 15.0,
-            "RH": 81.0,
-            "THI_Out": 58.9,
-            "THI_In": 63.3,
-            "Advies": "Geen alert"
-        },
-        {
             "Tijd": "03-06-2026 17:00",
             "Temp_Out": 15.0,
-            "RH": 86.0,
+            "RH": 85.0,
             "THI_Out": 58.9,
-            "THI_In": 63.5,
+            "THI_In": 63.4,
             "Advies": "Geen alert"
         },
         {
