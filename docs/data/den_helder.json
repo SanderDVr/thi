@@ -2,34 +2,26 @@
     "station": "Den Helder",
     "lat": 52.92,
     "lon": 4.78,
-    "updated_at": "2026-06-03 13:46:36",
+    "updated_at": "2026-06-03 15:39:39",
     "forecast": [
         {
-            "Tijd": "03-06-2026 16:00",
-            "Temp_Out": 16.0,
-            "RH": 74.0,
-            "THI_Out": 60.4,
-            "THI_In": 64.3,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "03-06-2026 17:00",
+            "Tijd": "03-06-2026 18:00",
             "Temp_Out": 15.0,
-            "RH": 81.0,
+            "RH": 82.0,
             "THI_Out": 58.9,
             "THI_In": 63.3,
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "03-06-2026 18:00",
-            "Temp_Out": 15.0,
-            "RH": 87.0,
-            "THI_Out": 58.9,
-            "THI_In": 63.5,
+            "Tijd": "03-06-2026 19:00",
+            "Temp_Out": 14.0,
+            "RH": 89.0,
+            "THI_Out": 57.2,
+            "THI_In": 62.2,
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "03-06-2026 19:00",
+            "Tijd": "03-06-2026 20:00",
             "Temp_Out": 14.0,
             "RH": 91.0,
             "THI_Out": 57.2,
@@ -37,17 +29,9 @@
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "03-06-2026 20:00",
-            "Temp_Out": 14.0,
-            "RH": 92.0,
-            "THI_Out": 57.2,
-            "THI_In": 62.3,
-            "Advies": "Geen alert"
-        },
-        {
             "Tijd": "03-06-2026 21:00",
             "Temp_Out": 14.0,
-            "RH": 93.0,
+            "RH": 92.0,
             "THI_Out": 57.2,
             "THI_In": 62.3,
             "Advies": "Geen alert"

@@ -1,9 +1,5 @@
 [
     {
-        "name": "Goutum",
-        "file": "goutum.json"
-    },
-    {
         "name": "De Bilt",
         "file": "de_bilt.json"
     },
@@ -20,15 +16,11 @@
         "file": "den_helder.json"
     },
     {
-        "name": "Eindhoven",
-        "file": "eindhoven.json"
+        "name": "Twenthe",
+        "file": "twenthe.json"
     },
     {
-        "name": "Alkmaar",
-        "file": "alkmaar.json"
-    },
-    {
-        "name": "Zwolle",
-        "file": "zwolle.json"
+        "name": "Hoogeveen",
+        "file": "hoogeveen.json"
     }
 ]
