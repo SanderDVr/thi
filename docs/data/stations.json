@@ -1,1 +1,22 @@
-[]
+[
+    {
+        "name": "Goutum",
+        "file": "goutum.json"
+    },
+    {
+        "name": "Vlissingen",
+        "file": "vlissingen.json"
+    },
+    {
+        "name": "Den Helder",
+        "file": "den_helder.json"
+    },
+    {
+        "name": "Eindhoven",
+        "file": "eindhoven.json"
+    },
+    {
+        "name": "Arnhem",
+        "file": "arnhem.json"
+    }
+]
