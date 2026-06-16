@@ -45,7 +45,7 @@ def fetch_and_process(name, lat, lon):
     
     try:
         r = requests.get(api_url)
-        print(f"Response for {name}: {r}")
+        print(f"Response for {name}: {r.content}")
         print(api_url)
 
         if r.status_code != 200:
