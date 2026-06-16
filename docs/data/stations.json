@@ -1,14 +1,6 @@
 [
     {
-        "name": "Rotterdam",
-        "file": "rotterdam.json"
-    },
-    {
-        "name": "Vlissingen",
-        "file": "vlissingen.json"
-    },
-    {
-        "name": "Hoogeveen",
-        "file": "hoogeveen.json"
+        "name": "Leeuwarden",
+        "file": "leeuwarden.json"
     }
 ]
