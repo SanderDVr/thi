@@ -2,391 +2,391 @@
     "station": "Rotterdam",
     "lat": 51.95,
     "lon": 4.44,
-    "updated_at": "2026-06-03 15:39:38",
+    "updated_at": "2026-06-16 10:22:42",
     "forecast": [
         {
-            "Tijd": "03-06-2026 18:00",
-            "Temp_Out": 16.0,
-            "RH": 84.0,
-            "THI_Out": 60.5,
-            "THI_In": 64.7,
+            "Tijd": "16-06-2026 13:00",
+            "Temp_Out": 21.0,
+            "RH": 64.0,
+            "THI_Out": 67.4,
+            "THI_In": 69.7,
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "03-06-2026 19:00",
-            "Temp_Out": 15.0,
-            "RH": 87.0,
-            "THI_Out": 58.9,
-            "THI_In": 63.5,
+            "Tijd": "16-06-2026 14:00",
+            "Temp_Out": 23.0,
+            "RH": 56.0,
+            "THI_Out": 69.6,
+            "THI_In": 71.3,
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "03-06-2026 20:00",
-            "Temp_Out": 15.0,
-            "RH": 88.0,
-            "THI_Out": 58.9,
-            "THI_In": 63.5,
+            "Tijd": "16-06-2026 15:00",
+            "Temp_Out": 24.0,
+            "RH": 51.0,
+            "THI_Out": 70.5,
+            "THI_In": 71.9,
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "03-06-2026 21:00",
-            "Temp_Out": 15.0,
-            "RH": 89.0,
-            "THI_Out": 58.9,
-            "THI_In": 63.6,
+            "Tijd": "16-06-2026 16:00",
+            "Temp_Out": 24.0,
+            "RH": 48.0,
+            "THI_Out": 70.2,
+            "THI_In": 71.5,
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "03-06-2026 22:00",
-            "Temp_Out": 15.0,
-            "RH": 91.0,
-            "THI_Out": 58.9,
-            "THI_In": 63.6,
+            "Tijd": "16-06-2026 17:00",
+            "Temp_Out": 24.0,
+            "RH": 48.0,
+            "THI_Out": 70.2,
+            "THI_In": 71.5,
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "03-06-2026 23:00",
-            "Temp_Out": 15.0,
-            "RH": 89.0,
-            "THI_Out": 58.9,
-            "THI_In": 63.6,
+            "Tijd": "16-06-2026 18:00",
+            "Temp_Out": 23.0,
+            "RH": 48.0,
+            "THI_Out": 68.9,
+            "THI_In": 70.5,
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "04-06-2026 00:00",
-            "Temp_Out": 15.0,
-            "RH": 87.0,
-            "THI_Out": 58.9,
-            "THI_In": 63.5,
+            "Tijd": "16-06-2026 19:00",
+            "Temp_Out": 22.0,
+            "RH": 49.0,
+            "THI_Out": 67.7,
+            "THI_In": 69.6,
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "04-06-2026 01:00",
-            "Temp_Out": 14.0,
-            "RH": 86.0,
-            "THI_Out": 57.3,
-            "THI_In": 62.1,
+            "Tijd": "16-06-2026 20:00",
+            "Temp_Out": 21.0,
+            "RH": 52.0,
+            "THI_Out": 66.6,
+            "THI_In": 68.8,
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "04-06-2026 02:00",
-            "Temp_Out": 14.0,
-            "RH": 86.0,
-            "THI_Out": 57.3,
-            "THI_In": 62.1,
+            "Tijd": "16-06-2026 21:00",
+            "Temp_Out": 21.0,
+            "RH": 53.0,
+            "THI_Out": 66.7,
+            "THI_In": 68.8,
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "04-06-2026 03:00",
-            "Temp_Out": 14.0,
-            "RH": 88.0,
-            "THI_Out": 57.2,
-            "THI_In": 62.2,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "04-06-2026 04:00",
-            "Temp_Out": 14.0,
-            "RH": 89.0,
-            "THI_Out": 57.2,
-            "THI_In": 62.2,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "04-06-2026 05:00",
-            "Temp_Out": 14.0,
-            "RH": 89.0,
-            "THI_Out": 57.2,
-            "THI_In": 62.2,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "04-06-2026 06:00",
-            "Temp_Out": 14.0,
-            "RH": 88.0,
-            "THI_Out": 57.2,
-            "THI_In": 62.2,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "04-06-2026 07:00",
-            "Temp_Out": 14.0,
-            "RH": 88.0,
-            "THI_Out": 57.2,
-            "THI_In": 62.2,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "04-06-2026 08:00",
-            "Temp_Out": 14.0,
-            "RH": 88.0,
-            "THI_Out": 57.2,
-            "THI_In": 62.2,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "04-06-2026 09:00",
-            "Temp_Out": 14.0,
-            "RH": 87.0,
-            "THI_Out": 57.3,
-            "THI_In": 62.2,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "04-06-2026 10:00",
-            "Temp_Out": 14.0,
-            "RH": 89.0,
-            "THI_Out": 57.2,
-            "THI_In": 62.2,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "04-06-2026 11:00",
-            "Temp_Out": 15.0,
-            "RH": 87.0,
-            "THI_Out": 58.9,
-            "THI_In": 63.5,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "04-06-2026 12:00",
-            "Temp_Out": 15.0,
-            "RH": 86.0,
-            "THI_Out": 58.9,
-            "THI_In": 63.5,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "04-06-2026 13:00",
-            "Temp_Out": 15.0,
-            "RH": 85.0,
-            "THI_Out": 58.9,
-            "THI_In": 63.4,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "04-06-2026 14:00",
-            "Temp_Out": 15.0,
-            "RH": 85.0,
-            "THI_Out": 58.9,
-            "THI_In": 63.4,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "04-06-2026 15:00",
-            "Temp_Out": 16.0,
-            "RH": 78.0,
-            "THI_Out": 60.4,
-            "THI_In": 64.5,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "04-06-2026 16:00",
-            "Temp_Out": 16.0,
-            "RH": 72.0,
-            "THI_Out": 60.4,
-            "THI_In": 64.2,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "04-06-2026 17:00",
-            "Temp_Out": 16.0,
-            "RH": 69.0,
-            "THI_Out": 60.3,
-            "THI_In": 64.1,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "04-06-2026 18:00",
-            "Temp_Out": 16.0,
-            "RH": 68.0,
-            "THI_Out": 60.3,
-            "THI_In": 64.1,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "04-06-2026 19:00",
-            "Temp_Out": 16.0,
-            "RH": 70.0,
-            "THI_Out": 60.3,
-            "THI_In": 64.2,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "04-06-2026 20:00",
-            "Temp_Out": 16.0,
-            "RH": 73.0,
-            "THI_Out": 60.4,
-            "THI_In": 64.3,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "04-06-2026 21:00",
-            "Temp_Out": 16.0,
-            "RH": 77.0,
-            "THI_Out": 60.4,
-            "THI_In": 64.5,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "04-06-2026 22:00",
-            "Temp_Out": 16.0,
-            "RH": 79.0,
-            "THI_Out": 60.5,
-            "THI_In": 64.5,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "04-06-2026 23:00",
-            "Temp_Out": 16.0,
-            "RH": 81.0,
-            "THI_Out": 60.5,
-            "THI_In": 64.6,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "05-06-2026 00:00",
-            "Temp_Out": 16.0,
-            "RH": 83.0,
-            "THI_Out": 60.5,
-            "THI_In": 64.7,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "05-06-2026 01:00",
-            "Temp_Out": 16.0,
-            "RH": 81.0,
-            "THI_Out": 60.5,
-            "THI_In": 64.6,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "05-06-2026 02:00",
-            "Temp_Out": 15.0,
-            "RH": 82.0,
-            "THI_Out": 58.9,
-            "THI_In": 63.3,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "05-06-2026 03:00",
-            "Temp_Out": 15.0,
-            "RH": 81.0,
-            "THI_Out": 58.9,
-            "THI_In": 63.3,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "05-06-2026 04:00",
-            "Temp_Out": 15.0,
-            "RH": 80.0,
-            "THI_Out": 58.9,
-            "THI_In": 63.3,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "05-06-2026 05:00",
-            "Temp_Out": 15.0,
-            "RH": 78.0,
-            "THI_Out": 58.9,
-            "THI_In": 63.2,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "05-06-2026 06:00",
-            "Temp_Out": 15.0,
-            "RH": 77.0,
-            "THI_Out": 58.9,
-            "THI_In": 63.2,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "05-06-2026 07:00",
-            "Temp_Out": 15.0,
-            "RH": 75.0,
-            "THI_Out": 58.8,
-            "THI_In": 63.1,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "05-06-2026 08:00",
-            "Temp_Out": 15.0,
-            "RH": 73.0,
-            "THI_Out": 58.8,
-            "THI_In": 63.0,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "05-06-2026 09:00",
-            "Temp_Out": 16.0,
-            "RH": 70.0,
-            "THI_Out": 60.3,
-            "THI_In": 64.2,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "05-06-2026 10:00",
-            "Temp_Out": 17.0,
-            "RH": 65.0,
-            "THI_Out": 61.7,
-            "THI_In": 65.1,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "05-06-2026 11:00",
-            "Temp_Out": 18.0,
-            "RH": 62.0,
-            "THI_Out": 63.0,
-            "THI_In": 66.1,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "05-06-2026 12:00",
-            "Temp_Out": 18.0,
-            "RH": 60.0,
-            "THI_Out": 63.0,
-            "THI_In": 66.0,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "05-06-2026 13:00",
-            "Temp_Out": 18.0,
-            "RH": 57.0,
-            "THI_Out": 62.9,
-            "THI_In": 65.8,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "05-06-2026 14:00",
-            "Temp_Out": 19.0,
+            "Tijd": "16-06-2026 22:00",
+            "Temp_Out": 20.0,
             "RH": 54.0,
-            "THI_Out": 64.1,
+            "THI_Out": 65.4,
+            "THI_In": 67.8,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "16-06-2026 23:00",
+            "Temp_Out": 20.0,
+            "RH": 57.0,
+            "THI_Out": 65.6,
+            "THI_In": 68.1,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 00:00",
+            "Temp_Out": 19.0,
+            "RH": 61.0,
+            "THI_Out": 64.4,
+            "THI_In": 67.2,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 01:00",
+            "Temp_Out": 19.0,
+            "RH": 61.0,
+            "THI_Out": 64.4,
+            "THI_In": 67.2,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 02:00",
+            "Temp_Out": 19.0,
+            "RH": 60.0,
+            "THI_Out": 64.4,
+            "THI_In": 67.1,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 03:00",
+            "Temp_Out": 19.0,
+            "RH": 60.0,
+            "THI_Out": 64.4,
+            "THI_In": 67.1,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 04:00",
+            "Temp_Out": 19.0,
+            "RH": 63.0,
+            "THI_Out": 64.5,
+            "THI_In": 67.3,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 05:00",
+            "Temp_Out": 18.0,
+            "RH": 68.0,
+            "THI_Out": 63.2,
+            "THI_In": 66.5,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 06:00",
+            "Temp_Out": 18.0,
+            "RH": 73.0,
+            "THI_Out": 63.4,
             "THI_In": 66.8,
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "05-06-2026 15:00",
+            "Tijd": "17-06-2026 07:00",
+            "Temp_Out": 18.0,
+            "RH": 76.0,
+            "THI_Out": 63.5,
+            "THI_In": 66.9,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 08:00",
+            "Temp_Out": 18.0,
+            "RH": 76.0,
+            "THI_Out": 63.5,
+            "THI_In": 66.9,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 09:00",
             "Temp_Out": 19.0,
+            "RH": 75.0,
+            "THI_Out": 65.0,
+            "THI_In": 68.1,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 10:00",
+            "Temp_Out": 19.0,
+            "RH": 74.0,
+            "THI_Out": 65.0,
+            "THI_In": 68.1,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 11:00",
+            "Temp_Out": 19.0,
+            "RH": 76.0,
+            "THI_Out": 65.1,
+            "THI_In": 68.2,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 12:00",
+            "Temp_Out": 19.0,
+            "RH": 77.0,
+            "THI_Out": 65.1,
+            "THI_In": 68.3,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 13:00",
+            "Temp_Out": 19.0,
+            "RH": 77.0,
+            "THI_Out": 65.1,
+            "THI_In": 68.3,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 14:00",
+            "Temp_Out": 21.0,
+            "RH": 71.0,
+            "THI_Out": 67.9,
+            "THI_In": 70.3,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 15:00",
+            "Temp_Out": 22.0,
+            "RH": 66.0,
+            "THI_Out": 69.0,
+            "THI_In": 71.1,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 16:00",
+            "Temp_Out": 23.0,
+            "RH": 63.0,
+            "THI_Out": 70.2,
+            "THI_In": 72.0,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 17:00",
+            "Temp_Out": 23.0,
+            "RH": 61.0,
+            "THI_Out": 70.0,
+            "THI_In": 71.8,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 18:00",
+            "Temp_Out": 23.0,
+            "RH": 59.0,
+            "THI_Out": 69.9,
+            "THI_In": 71.6,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 19:00",
+            "Temp_Out": 23.0,
+            "RH": 60.0,
+            "THI_Out": 70.0,
+            "THI_In": 71.7,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 20:00",
+            "Temp_Out": 23.0,
+            "RH": 61.0,
+            "THI_Out": 70.0,
+            "THI_In": 71.8,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 21:00",
+            "Temp_Out": 22.0,
+            "RH": 63.0,
+            "THI_Out": 68.8,
+            "THI_In": 70.8,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 22:00",
+            "Temp_Out": 22.0,
+            "RH": 64.0,
+            "THI_Out": 68.9,
+            "THI_In": 70.9,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "17-06-2026 23:00",
+            "Temp_Out": 22.0,
+            "RH": 66.0,
+            "THI_Out": 69.0,
+            "THI_In": 71.1,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "18-06-2026 00:00",
+            "Temp_Out": 21.0,
+            "RH": 67.0,
+            "THI_Out": 67.6,
+            "THI_In": 70.0,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "18-06-2026 01:00",
+            "Temp_Out": 21.0,
+            "RH": 69.0,
+            "THI_Out": 67.8,
+            "THI_In": 70.2,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "18-06-2026 02:00",
+            "Temp_Out": 20.0,
+            "RH": 72.0,
+            "THI_Out": 66.4,
+            "THI_In": 69.2,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "18-06-2026 03:00",
+            "Temp_Out": 20.0,
+            "RH": 74.0,
+            "THI_Out": 66.5,
+            "THI_In": 69.3,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "18-06-2026 04:00",
+            "Temp_Out": 19.0,
+            "RH": 76.0,
+            "THI_Out": 65.1,
+            "THI_In": 68.2,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "18-06-2026 05:00",
+            "Temp_Out": 19.0,
+            "RH": 78.0,
+            "THI_Out": 65.2,
+            "THI_In": 68.3,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "18-06-2026 06:00",
+            "Temp_Out": 19.0,
+            "RH": 79.0,
+            "THI_Out": 65.2,
+            "THI_In": 68.4,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "18-06-2026 07:00",
+            "Temp_Out": 19.0,
+            "RH": 78.0,
+            "THI_Out": 65.2,
+            "THI_In": 68.3,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "18-06-2026 08:00",
+            "Temp_Out": 20.0,
+            "RH": 74.0,
+            "THI_Out": 66.5,
+            "THI_In": 69.3,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "18-06-2026 09:00",
+            "Temp_Out": 22.0,
+            "RH": 68.0,
+            "THI_Out": 69.2,
+            "THI_In": 71.3,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "18-06-2026 10:00",
+            "Temp_Out": 24.0,
+            "RH": 60.0,
+            "THI_Out": 71.4,
+            "THI_In": 72.8,
+            "Advies": "Alert"
+        },
+        {
+            "Tijd": "18-06-2026 11:00",
+            "Temp_Out": 25.0,
+            "RH": 55.0,
+            "THI_Out": 72.2,
+            "THI_In": 73.4,
+            "Advies": "Alert"
+        },
+        {
+            "Tijd": "18-06-2026 12:00",
+            "Temp_Out": 27.0,
             "RH": 51.0,
-            "THI_Out": 63.9,
-            "THI_In": 66.6,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "05-06-2026 16:00",
-            "Temp_Out": 19.0,
-            "RH": 48.0,
-            "THI_Out": 63.8,
-            "THI_In": 66.4,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "05-06-2026 17:00",
-            "Temp_Out": 19.0,
-            "RH": 47.0,
-            "THI_Out": 63.8,
-            "THI_In": 66.3,
-            "Advies": "Geen alert"
+            "THI_Out": 74.4,
+            "THI_In": 75.0,
+            "Advies": "Alert"
         }
     ]
 }
