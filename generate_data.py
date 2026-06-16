@@ -41,7 +41,7 @@ def get_thi_alert(thi):
 
 def fetch_and_process(name, lat, lon):
     print(f"Fetching data for {name}...")
-    api_url = f"https://data.meteoserver.nl/api/uurverwachting.php?lat={lat}&long={lon}&key={API_KEY}"
+    api_url = f"https://data.meteoserver.nl/api/uurverwachting.php?locatie={name}&key={API_KEY}"
     
     try:
         r = requests.get(api_url)
