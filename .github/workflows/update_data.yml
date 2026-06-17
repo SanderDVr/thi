@@ -45,7 +45,7 @@ jobs:
           VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
           VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
           VAPID_SUBJECT: mailto:demo@example.com
-        run: python send_notification
+        run: python send_notification.py
 
       - name: Commit and push changes
         run: |
