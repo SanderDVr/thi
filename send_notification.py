@@ -9,6 +9,7 @@ SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 VAPID_PUBLIC_KEY = os.getenv("VAPID_PUBLIC_KEY")
 VAPID_PRIVATE_KEY = os.getenv("VAPID_PRIVATE_KEY")
+VAPID_SUBJECT = os.getenv("VAPID_SUBJECT")
 
 SUPABASE_TABLE = "subscriptions"
 
@@ -50,6 +51,7 @@ def main():
         "SUPABASE_KEY": SUPABASE_KEY,
         "VAPID_PUBLIC_KEY": VAPID_PUBLIC_KEY,
         "VAPID_PRIVATE_KEY": VAPID_PRIVATE_KEY,
+        "VAPID_SUBJECT": VAPID_SUBJECT,
     }
     for name, value in required_envs.items():
         require_env(name, value)
@@ -73,7 +75,7 @@ def main():
                     "url": "/",
                 }),
                 vapid_private_key=VAPID_PRIVATE_KEY,
-                vapid_public_key=VAPID_PUBLIC_KEY,
+                vapid_claims={"sub": VAPID_SUBJECT}
             )
             sent += 1
         except WebPushException as e:
