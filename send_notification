@@ -6,7 +6,7 @@ from supabase import create_client
 from pywebpush import webpush, WebPushException
 
 SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_SERVICE_ROLE_KEY = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 VAPID_PUBLIC_KEY = os.getenv("VAPID_PUBLIC_KEY")
 VAPID_PRIVATE_KEY = os.getenv("VAPID_PRIVATE_KEY")
 
@@ -47,14 +47,14 @@ def remove_subscription_by_id(supabase, sub_id):
 def main():
     required_envs = {
         "SUPABASE_URL": SUPABASE_URL,
-        "SUPABASE_SERVICE_ROLE_KEY": SUPABASE_SERVICE_ROLE_KEY,
+        "SUPABASE_KEY": SUPABASE_KEY,
         "VAPID_PUBLIC_KEY": VAPID_PUBLIC_KEY,
         "VAPID_PRIVATE_KEY": VAPID_PRIVATE_KEY,
     }
     for name, value in required_envs.items():
         require_env(name, value)
 
-    supabase = create_client(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)
+    supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
     rows = fetch_all_subscriptions(supabase)
 
     sent = skipped = removed = failed = 0
