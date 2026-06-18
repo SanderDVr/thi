@@ -1,5 +1,5 @@
 self.addEventListener('push', (event) => {
-  let payload = { title: 'Nieuwe melding', body: 'Dit is een testmelding.', url: '/' };
+  let payload = { title: 'Hittestress', body: 'Kon data niet ophalen', url: '/' };  // fallback message
 
   if (event.data) {
     try {
