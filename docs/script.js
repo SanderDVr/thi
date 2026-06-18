@@ -187,11 +187,6 @@ async function subscribeToNotifications() {
 
 async function initNotifications() {
     console.log('[initNotifications] start');
-    if (!subscribeButton || !statusElement) {
-        console.log('[initNotifications] missing subscribeButton or statusElement');
-        return;
-    }
-
     try {
         serviceWorkerRegistration = await registerServiceWorker();
         setStatus('Service worker geregistreerd. Klik op de knop om te abonneren.');
