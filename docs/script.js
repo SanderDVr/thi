@@ -19,6 +19,174 @@ async function init() {
     }
 }
 
+const SUPABASE_URL = 'https://yxyyhgksenptvdvvpqvr.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inl4eXloZ2tzZW5wdHZkdnZwcXZyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM0MTA4NjcsImV4cCI6MjA4ODk4Njg2N30.fKLtk_xSu-Tm8wJZdcC5UD88Af-SXr0kjxpKn9lowg';
+const SUPABASE_TABLE = 'subscriptions';
+const PUBLIC_VAPID_KEY = 'BHRipgAwNL204yCr1YljpgyTUnUgK3bt8EAyf0k-QTb2iYRbFfI3l6WuO08UU8HcDD-REzJIn3B8ao6hVrDE4Ts';
+
+const subscribeButton = document.getElementById('subscribe-button');
+const statusElement = document.getElementById('status');
+
+let serviceWorkerRegistration;
+
+function setStatus(message) {
+    if (statusElement) {
+        statusElement.textContent = message;
+    }
+}
+
+function isConfigReady() {
+    return ![
+        SUPABASE_URL,
+        SUPABASE_ANON_KEY,
+        PUBLIC_VAPID_KEY,
+    ].some((value) => value.startsWith('YOUR_') || value.includes('YOUR_PROJECT'));
+}
+
+function urlBase64ToUint8Array(base64String) {
+    const padding = '='.repeat((4 - (base64String.length % 4)) % 4);
+    const base64 = (base64String + padding).replace(/-/g, '+').replace(/_/g, '/');
+    const rawData = window.atob(base64);
+    const outputArray = new Uint8Array(rawData.length);
+
+    for (let index = 0; index < rawData.length; index += 1) {
+        outputArray[index] = rawData.charCodeAt(index);
+    }
+
+    return outputArray;
+}
+
+function getApplicationServerKey() {
+    if (PUBLIC_VAPID_KEY.startsWith('sb_publishable_')) {
+        throw new Error('PUBLIC_VAPID_KEY is nu een Supabase publishable key. Vul hier de echte web-push VAPID public key in.');
+    }
+
+    if (!/^[A-Za-z0-9_-]+$/.test(PUBLIC_VAPID_KEY)) {
+        throw new Error('PUBLIC_VAPID_KEY moet een base64url-gecodeerde VAPID public key zijn.');
+    }
+
+    const applicationServerKey = urlBase64ToUint8Array(PUBLIC_VAPID_KEY);
+
+    if (applicationServerKey.length !== 65) {
+        throw new Error('PUBLIC_VAPID_KEY is ongeldig. Voor web push verwacht de browser een P-256 public key van 65 bytes.');
+    }
+
+    return applicationServerKey;
+}
+
+async function registerServiceWorker() {
+    if (!('serviceWorker' in navigator)) {
+        throw new Error('Service workers worden niet ondersteund in deze browser.');
+    }
+
+    await navigator.serviceWorker.register('./sw.js');
+    return navigator.serviceWorker.ready;
+}
+
+async function requestNotificationPermission() {
+    if (!('Notification' in window)) {
+        throw new Error('Notifications worden niet ondersteund in deze browser.');
+    }
+
+    const permission = await Notification.requestPermission();
+
+    if (permission !== 'granted') {
+        throw new Error('Notificatiepermissie is niet toegekend.');
+    }
+}
+
+async function createPushSubscription(registration) {
+    if (!('PushManager' in window)) {
+        throw new Error('Push API wordt niet ondersteund in deze browser.');
+    }
+
+    const existingSubscription = await registration.pushManager.getSubscription();
+    if (existingSubscription) {
+        return existingSubscription;
+    }
+
+    return registration.pushManager.subscribe({
+        userVisibleOnly: true,
+        applicationServerKey: getApplicationServerKey(),
+    });
+}
+
+async function saveSubscription(subscription) {
+    const subscriptionData = subscription.toJSON();
+    const response = await fetch(`${SUPABASE_URL}/rest/v1/${SUPABASE_TABLE}`, {
+        method: 'POST',
+        headers: {
+            apikey: SUPABASE_ANON_KEY,
+            Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
+            'Content-Type': 'application/json',
+            Prefer: 'return=minimal',
+        },
+        body: JSON.stringify([
+            {
+                data: {
+                    endpoint: subscription.endpoint,
+                    subscription: subscriptionData,
+                    keys: subscriptionData.keys || null,
+                    saved_at: new Date().toISOString(),
+                },
+            },
+        ]),
+    });
+
+    if (!response.ok) {
+        const errorBody = await response.text();
+        throw new Error(`Supabase opslag mislukt: ${response.status} ${errorBody}`);
+    }
+}
+
+async function subscribeToNotifications() {
+    if (!isConfigReady()) {
+        throw new Error('Vul eerst je Supabase- en VAPID-configuratie in bovenaan script.js in.');
+    }
+
+    setStatus('Service worker registreren...');
+    serviceWorkerRegistration = serviceWorkerRegistration || await registerServiceWorker();
+
+    setStatus('Notificatiepermissie aanvragen...');
+    await requestNotificationPermission();
+
+    setStatus('Push subscription aanmaken...');
+    const subscription = await createPushSubscription(serviceWorkerRegistration);
+
+    setStatus('Subscription naar Supabase sturen...');
+    await saveSubscription(subscription);
+
+    setStatus('Klaar. De browser is geabonneerd en de subscription staat in Supabase.');
+}
+
+async function initNotifications() {
+    if (!subscribeButton || !statusElement) {
+        return;
+    }
+
+    try {
+        serviceWorkerRegistration = await registerServiceWorker();
+        setStatus('Service worker geregistreerd. Klik op de knop om te abonneren.');
+    } catch (error) {
+        setStatus(error.message);
+        subscribeButton.disabled = true;
+        return;
+    }
+
+    subscribeButton.addEventListener('click', async () => {
+        subscribeButton.disabled = true;
+
+        try {
+            await subscribeToNotifications();
+        } catch (error) {
+            setStatus(error.message);
+            console.error(error);
+        } finally {
+            subscribeButton.disabled = false;
+        }
+    });
+}
+
 async function loadStation(filename) {
     try {
         const response = await fetch(`data/${filename}`);
@@ -126,4 +294,5 @@ function handleRegister(event) {
     `;
 }
 
+void initNotifications();
 init();
