@@ -4,6 +4,8 @@ import sys
 
 from supabase import create_client
 from pywebpush import webpush, WebPushException
+import pandas as pd
+
 
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
@@ -46,6 +48,10 @@ def remove_subscription_by_id(supabase, sub_id):
 
 
 def main():
+
+    df = pd.read_json("docs/data/leeuwarden.json")
+    print(df.head())
+
     required_envs = {
         "SUPABASE_URL": SUPABASE_URL,
         "SUPABASE_KEY": SUPABASE_KEY,
