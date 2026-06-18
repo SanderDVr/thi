@@ -49,8 +49,31 @@ def remove_subscription_by_id(supabase, sub_id):
 
 def main():
 
-    df = pd.read_json("docs/data/leeuwarden.json")
-    print(df.head())
+    with open("docs/data/leeuwarden.json", "r") as file:
+        all_data_leeuwarden = json.load(file)
+
+    alert_times = {"begin": [], "end": []}
+    past_hour_forcast_advies = "Geen alert"
+
+    for forcast in all_data_leeuwarden["forecast"]:
+        if past_hour_forcast_advies != forcast["Advies"]:
+            alert_times["begin" if forcast["Advies"] == "Alert" else "end"].append(forcast["Tijd"])
+            past_hour_forcast_advies = forcast["Advies"]
+
+    if not alert_times:
+        print("Geen alerts gevonden in de data.")
+        return
+
+    # Maak een boodschap met de tijden van begin en eind van een hittestress periode
+    periodes = []
+    for i, begin in enumerate(alert_times['begin']):
+        if i < len(alert_times['end']):
+            periodes.append(f"vanaf {begin} tot {alert_times['end'][i]}")
+        else:
+            periodes.append(f"vanaf {begin}")
+
+    # Bijv: vanaf 18-06-2026 11:00 tot 19-06-2026 00:00 en vanaf 19-06-2026 09:00 tot 20-06-2026 03:00 en vanaf 20-06-2026 10:00 in Leeuwarden
+    notification_body = " en ".join(periodes) + " in Leeuwarden"
 
     required_envs = {
         "SUPABASE_URL": SUPABASE_URL,
@@ -76,8 +99,8 @@ def main():
             webpush(
                 subscription_info=subscription_data,
                 data=json.dumps({
-                    "title": "Nieuwe melding",
-                    "body": "Dit is een testmelding.",
+                    "title": "Hittestress",
+                    "body": notification_body,
                     "url": "/",
                 }),
                 vapid_private_key=VAPID_PRIVATE_KEY,
