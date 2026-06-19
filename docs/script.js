@@ -142,7 +142,7 @@ async function saveSubscription(subscription) {
 }
 
 async function removeSubscriptionFromSupabase(endpoint) {
-    const response = await fetch(`${SUPABASE_URL}/rest/v1/${SUPABASE_TABLE}?endpoint=eq.${encodeURIComponent(endpoint)}`, {
+    const response = await fetch(`${SUPABASE_URL}/rest/v1/${SUPABASE_TABLE}?data->>endpoint=eq.${encodeURIComponent(endpoint)}`, {
         method: 'DELETE',
         headers: {
             apikey: SUPABASE_ANON_KEY,
