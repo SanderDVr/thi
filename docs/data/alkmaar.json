@@ -2,14 +2,14 @@
     "station": "Alkmaar",
     "lat": 52.63,
     "lon": 4.75,
-    "updated_at": "2026-06-19 08:10:28",
+    "updated_at": "2026-06-19 08:19:09",
     "forecast": [
         {
             "Tijd": "19-06-2026 11:00",
             "Temp_Out": 28.0,
-            "RH": 56.0,
-            "THI_Out": 76.4,
-            "THI_In": 76.8,
+            "RH": 55.0,
+            "THI_Out": 76.3,
+            "THI_In": 76.7,
             "Advies": "Alert"
         },
         {

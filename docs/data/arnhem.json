@@ -2,14 +2,14 @@
     "station": "Arnhem",
     "lat": 51.98,
     "lon": 5.91,
-    "updated_at": "2026-06-19 08:10:29",
+    "updated_at": "2026-06-19 08:19:10",
     "forecast": [
         {
             "Tijd": "19-06-2026 11:00",
             "Temp_Out": 28.0,
-            "RH": 57.0,
-            "THI_Out": 76.6,
-            "THI_In": 76.9,
+            "RH": 56.0,
+            "THI_Out": 76.4,
+            "THI_In": 76.8,
             "Advies": "Alert"
         },
         {
