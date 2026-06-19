@@ -1,23 +1,18 @@
 async function init() {
-    console.log('[init] starting station load');
     try {
         const response = await fetch('data/stations.json');
-        console.log('[init] fetched data/stations.json', response.status);
         const stations = await response.json();
         const select = document.getElementById('station-select');
-        console.log('[init] station count', stations.length, 'select found:', !!select);
         
         stations.forEach(station => {
-            console.log('[init] adding station option', station.name, station.file);
             const option = document.createElement('option');
             option.value = station.file;
             option.textContent = station.name;
-            if (station.name === "Leeuwarden") option.selected = true;
+            if (station.name === "Leeuwarden") option.selected = true;  // Set Leeuwarden as the default selected station
             select.appendChild(option);
         });
 
         // Load default station
-        console.log('[init] loading default station leeuwarden.json');
         loadStation('leeuwarden.json');
     } catch (e) {
         console.error('[init] Error initializing stations:', e);
@@ -35,7 +30,6 @@ const statusElement = document.getElementById('status');
 let serviceWorkerRegistration;
 
 function setStatus(message) {
-    console.log('[setStatus]', message);
     if (statusElement) {
         statusElement.textContent = message;
     }
@@ -47,12 +41,10 @@ function isConfigReady() {
         SUPABASE_ANON_KEY,
         PUBLIC_VAPID_KEY,
     ].some((value) => value.startsWith('YOUR_') || value.includes('YOUR_PROJECT'));
-    console.log('[isConfigReady]', ready);
     return ready;
 }
 
 function urlBase64ToUint8Array(base64String) {
-    console.log('[urlBase64ToUint8Array] input length', base64String.length);
     const padding = '='.repeat((4 - (base64String.length % 4)) % 4);
     const base64 = (base64String + padding).replace(/-/g, '+').replace(/_/g, '/');
     const rawData = window.atob(base64);
@@ -62,12 +54,10 @@ function urlBase64ToUint8Array(base64String) {
         outputArray[index] = rawData.charCodeAt(index);
     }
 
-    console.log('[urlBase64ToUint8Array] output length', outputArray.length);
     return outputArray;
 }
 
 function getApplicationServerKey() {
-    console.log('[getApplicationServerKey] validating public key');
     if (PUBLIC_VAPID_KEY.startsWith('sb_publishable_')) {
         throw new Error('PUBLIC_VAPID_KEY is nu een Supabase publishable key. Vul hier de echte web-push VAPID public key in.');
     }
@@ -82,29 +72,24 @@ function getApplicationServerKey() {
         throw new Error('PUBLIC_VAPID_KEY is ongeldig. Voor web push verwacht de browser een P-256 public key van 65 bytes.');
     }
 
-    console.log('[getApplicationServerKey] key valid');
     return applicationServerKey;
 }
 
 async function registerServiceWorker() {
-    console.log('[registerServiceWorker] start');
     if (!('serviceWorker' in navigator)) {
-        throw new Error('Service workers worden niet ondersteund in deze browser.');
+        throw new Error('Service workers worden niet ondersteund in deze browser. Wissel van browser of update naar een recentere versie om u te aboneren op hittestress updates.');
     }
 
     await navigator.serviceWorker.register('./sw.js');
-    console.log('[registerServiceWorker] registered ./sw.js');
     return navigator.serviceWorker.ready;
 }
 
 async function requestNotificationPermission() {
-    console.log('[requestNotificationPermission] start');
     if (!('Notification' in window)) {
         throw new Error('Notifications worden niet ondersteund in deze browser.');
     }
 
     const permission = await Notification.requestPermission();
-    console.log('[requestNotificationPermission] result', permission);
 
     if (permission !== 'granted') {
         throw new Error('Notificatiepermissie is niet toegekend.');
@@ -112,18 +97,15 @@ async function requestNotificationPermission() {
 }
 
 async function createPushSubscription(registration) {
-    console.log('[createPushSubscription] start');
     if (!('PushManager' in window)) {
         throw new Error('Push API wordt niet ondersteund in deze browser.');
     }
 
     const existingSubscription = await registration.pushManager.getSubscription();
     if (existingSubscription) {
-        console.log('[createPushSubscription] reusing existing subscription');
         return existingSubscription;
     }
 
-    console.log('[createPushSubscription] creating new subscription');
     return registration.pushManager.subscribe({
         userVisibleOnly: true,
         applicationServerKey: getApplicationServerKey(),
@@ -131,7 +113,6 @@ async function createPushSubscription(registration) {
 }
 
 async function saveSubscription(subscription) {
-    console.log('[saveSubscription] start', subscription.endpoint);
     const subscriptionData = subscription.toJSON();
     const response = await fetch(`${SUPABASE_URL}/rest/v1/${SUPABASE_TABLE}`, {
         method: 'POST',
@@ -153,7 +134,6 @@ async function saveSubscription(subscription) {
         ]),
     });
 
-    console.log('[saveSubscription] response', response.status, response.ok);
     if (!response.ok) {
         const errorBody = await response.text();
         throw new Error(`Supabase opslag mislukt: ${response.status} ${errorBody}`);
@@ -161,36 +141,29 @@ async function saveSubscription(subscription) {
 }
 
 async function subscribeToNotifications() {
-    console.log('[subscribeToNotifications] start');
     if (!isConfigReady()) {
         throw new Error('Vul eerst je Supabase- en VAPID-configuratie in bovenaan script.js in.');
     }
 
     setStatus('Service worker registreren...');
     serviceWorkerRegistration = serviceWorkerRegistration || await registerServiceWorker();
-    console.log('[subscribeToNotifications] service worker ready');
 
     setStatus('Notificatiepermissie aanvragen...');
     await requestNotificationPermission();
-    console.log('[subscribeToNotifications] permission granted');
 
     setStatus('Push subscription aanmaken...');
     const subscription = await createPushSubscription(serviceWorkerRegistration);
-    console.log('[subscribeToNotifications] subscription created', subscription.endpoint);
 
     setStatus('Subscription naar Supabase sturen...');
     await saveSubscription(subscription);
 
     setStatus('Klaar. De browser is geabonneerd en de subscription staat in Supabase.');
-    console.log('[subscribeToNotifications] finished');
 }
 
 async function initNotifications() {
-    console.log('[initNotifications] start');
     try {
         serviceWorkerRegistration = await registerServiceWorker();
         setStatus('Service worker geregistreerd. Klik op de knop om te abonneren.');
-        console.log('[initNotifications] service worker registered on startup');
     } catch (error) {
         setStatus(error.message);
         subscribeButton.disabled = true;
@@ -199,7 +172,6 @@ async function initNotifications() {
     }
 
     subscribeButton.addEventListener('click', async () => {
-        console.log('[subscribe-button click] received');
         subscribeButton.disabled = true;
 
         try {
@@ -208,19 +180,15 @@ async function initNotifications() {
             setStatus(error.message);
             console.error('[subscribe-button click] subscription failed', error);
         } finally {
-            console.log('[subscribe-button click] re-enabling button');
             subscribeButton.disabled = false;
         }
     });
 }
 
 async function loadStation(filename) {
-    console.log('[loadStation] start', filename);
     try {
         const response = await fetch(`data/${filename}`);
-        console.log('[loadStation] fetch status', response.status);
         const data = await response.json();
-        console.log('[loadStation] loaded station', data.station, 'forecast items', data.forecast?.length);
         updateUI(data);
     } catch (e) {
         console.error('[loadStation] Error loading station data:', e);
@@ -228,11 +196,9 @@ async function loadStation(filename) {
 }
 
 function updateUI(data) {
-    console.log('[updateUI] start', data.station, data.updated_at);
     // Update status box
     const maxTHI = Math.max(...data.forecast.map(f => f.THI_In));
     const statusBox = document.getElementById('status-box');
-    console.log('[updateUI] maxTHI', maxTHI, 'statusBox found:', !!statusBox);
     
     if (maxTHI < 68) {
         statusBox.className = 'status-box status-green';
@@ -246,15 +212,12 @@ function updateUI(data) {
     }
 
     // Update Chart
-    console.log('[updateUI] rendering chart');
     renderChart(data.forecast);
 
     // Update Table
     const tbody = document.querySelector('#forecast-table tbody');
-    console.log('[updateUI] table body found:', !!tbody);
     tbody.innerHTML = '';
     data.forecast.forEach(f => {
-        console.log('[updateUI] table row', f.Tijd, f.THI_In);
         const tr = document.createElement('tr');
         tr.innerHTML = `
             <td>${f.Tijd}</td>
@@ -270,15 +233,12 @@ function updateUI(data) {
     // Update Buienradar
     const iframe = document.getElementById('buienradar-iframe');
     iframe.src = `https://gadgets.buienradar.nl/gadget/zoommap/?lat=${data.lat}&lng=${data.lon}&overname=2&zoom=8&naam=${data.station}&size=3&voor=0`;
-    console.log('[updateUI] updated buienradar iframe', iframe.src);
 
     // Update Footer
     document.getElementById('last-updated').textContent = `Laatst bijgewerkt: ${data.updated_at}`;
-    console.log('[updateUI] finished');
 }
 
 function renderChart(forecast) {
-    console.log('[renderChart] start', forecast.length);
     const times = forecast.map(f => f.Tijd);
     const thiIn = forecast.map(f => f.THI_In);
     const thiOut = forecast.map(f => f.THI_Out);
@@ -314,21 +274,17 @@ function renderChart(forecast) {
     };
 
     Plotly.newPlot('thi-chart', [traceIn, traceOut], layout, {responsive: true});
-    console.log('[renderChart] plot created');
 }
 
 function showPage(pageId) {
-    console.log('[showPage] switching to', pageId);
     document.getElementById('page-home').style.display = pageId === 'home' ? 'block' : 'none';
     document.getElementById('page-register').style.display = pageId === 'register' ? 'block' : 'none';
     document.getElementById('page-about').style.display = pageId === 'about' ? 'block' : 'none';
 }
 
 function handleRegister(event) {
-    console.log('[handleRegister] called');
     event.preventDefault();
     const name = event.target.name.value;
-    console.log('[handleRegister] name', name);
     document.getElementById('register-msg').innerHTML = `
         <div style="background: #d4edda; color: #155724; padding: 15px; border-radius: 5px; margin-top: 20px;">
             Bedankt voor je inschrijving, ${name}! Je ontvangt binnenkort een maatwerk alert.
@@ -336,6 +292,5 @@ function handleRegister(event) {
     `;
 }
 
-console.log('[script] booting');
 void initNotifications();
 init();
