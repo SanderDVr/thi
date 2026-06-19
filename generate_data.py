@@ -1,7 +1,8 @@
 import requests
 import os
 import json
-import time
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 # --- Configurations ---
 API_KEY = os.getenv("METEOSERVER_API_KEY")
@@ -78,7 +79,7 @@ def fetch_and_process(name, lat, lon):
             "station": name,
             "lat": lat,
             "lon": lon,
-            "updated_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "updated_at": datetime.now(ZoneInfo("Europe/Amsterdam")).strftime("%Y-%m-%d %H:%M:%S"),
             "forecast": forecast_list
         }
 

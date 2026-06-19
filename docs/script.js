@@ -25,6 +25,7 @@ const SUPABASE_TABLE = 'subscriptions';
 const PUBLIC_VAPID_KEY = 'BHRipgAwNL204yCr1YljpgyTUnUgK3bt8EAyf0k-QTb2iYRbFfI3l6WuO08UU8HcDD-REzJIn3B8ao6hVrDE4Ts';
 
 const subscribeButton = document.getElementById('subscribe-button');
+const unsubscribeButton = document.getElementById('unsubscribe-button');
 const statusElement = document.getElementById('status');
 
 let serviceWorkerRegistration;
@@ -140,6 +141,22 @@ async function saveSubscription(subscription) {
     }
 }
 
+async function removeSubscriptionFromSupabase(endpoint) {
+    const response = await fetch(`${SUPABASE_URL}/rest/v1/${SUPABASE_TABLE}?endpoint=eq.${encodeURIComponent(endpoint)}`, {
+        method: 'DELETE',
+        headers: {
+            apikey: SUPABASE_ANON_KEY,
+            Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
+            Prefer: 'return=minimal',
+        },
+    });
+
+    if (!response.ok) {
+        const errorBody = await response.text();
+        throw new Error(`Supabase verwijdering mislukt: ${response.status} ${errorBody}`);
+    }
+}
+
 async function subscribeToNotifications() {
     if (!isConfigReady()) {
         throw new Error('Vul eerst je Supabase- en VAPID-configuratie in bovenaan script.js in.');
@@ -158,6 +175,29 @@ async function subscribeToNotifications() {
     await saveSubscription(subscription);
 
     setStatus('Klaar. De browser is geabonneerd en de subscription staat in Supabase.');
+}
+
+async function unsubscribeFromNotifications() {
+    if (!('serviceWorker' in navigator)) {
+        throw new Error('Service workers worden niet ondersteund in deze browser.');
+    }
+
+    const registration = await navigator.serviceWorker.ready;
+    const subscription = await registration.pushManager.getSubscription();
+
+    if (!subscription) {
+        setStatus('Er is geen actieve subscription om te verwijderen.');
+        return;
+    }
+
+    const endpoint = subscription.endpoint;
+    setStatus('Subscription verwijderen uit de browser...');
+    await subscription.unsubscribe();
+
+    setStatus('Subscription verwijderen uit Supabase...');
+    await removeSubscriptionFromSupabase(endpoint);
+
+    setStatus('Klaar. Deze browser is gedesubscribed en uit Supabase verwijderd.');
 }
 
 async function initNotifications() {
@@ -181,6 +221,18 @@ async function initNotifications() {
             console.error('[subscribe-button click] subscription failed', error);
         } finally {
             subscribeButton.disabled = false;
+        }
+    });
+    unsubscribeButton.addEventListener('click', async () => {
+        unsubscribeButton.disabled = true;
+
+        try {
+            await unsubscribeFromNotifications();
+        } catch (error) {
+            setStatus(error.message);
+            console.error('[unsubscribe-button click] unsubscribe failed', error);
+        } finally {
+            unsubscribeButton.disabled = false;
         }
     });
 }
