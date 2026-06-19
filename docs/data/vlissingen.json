@@ -2,38 +2,38 @@
     "station": "Vlissingen",
     "lat": 51.45,
     "lon": 3.6,
-    "updated_at": "2026-06-19 08:19:06",
+    "updated_at": "2026-06-19 08:31:35",
     "forecast": [
         {
             "Tijd": "19-06-2026 11:00",
-            "Temp_Out": 24.0,
-            "RH": 75.0,
-            "THI_Out": 72.8,
-            "THI_In": 74.4,
+            "Temp_Out": 25.0,
+            "RH": 73.0,
+            "THI_Out": 74.1,
+            "THI_In": 75.4,
             "Advies": "Alert"
         },
         {
             "Tijd": "19-06-2026 12:00",
-            "Temp_Out": 25.0,
-            "RH": 72.0,
-            "THI_Out": 74.0,
-            "THI_In": 75.3,
+            "Temp_Out": 26.0,
+            "RH": 71.0,
+            "THI_Out": 75.4,
+            "THI_In": 76.4,
             "Advies": "Alert"
         },
         {
             "Tijd": "19-06-2026 13:00",
-            "Temp_Out": 26.0,
+            "Temp_Out": 27.0,
             "RH": 69.0,
-            "THI_Out": 75.2,
-            "THI_In": 76.2,
+            "THI_Out": 76.7,
+            "THI_In": 77.4,
             "Advies": "Alert"
         },
         {
             "Tijd": "19-06-2026 14:00",
-            "Temp_Out": 27.0,
+            "Temp_Out": 28.0,
             "RH": 67.0,
-            "THI_Out": 76.4,
-            "THI_In": 77.1,
+            "THI_Out": 77.9,
+            "THI_In": 78.3,
             "Advies": "Alert"
         },
         {
