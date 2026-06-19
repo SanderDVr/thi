@@ -2,70 +2,46 @@
     "station": "Lelystad",
     "lat": 52.45,
     "lon": 5.52,
-    "updated_at": "2026-06-19 14:35:21",
+    "updated_at": "2026-06-19 17:52:40",
     "forecast": [
         {
-            "Tijd": "19-06-2026 15:00",
-            "Temp_Out": 33.0,
-            "RH": 46.0,
-            "THI_Out": 81.4,
-            "THI_In": 80.5,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "19-06-2026 16:00",
-            "Temp_Out": 34.0,
-            "RH": 42.0,
-            "THI_Out": 81.8,
-            "THI_In": 80.8,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "19-06-2026 17:00",
-            "Temp_Out": 34.0,
-            "RH": 41.0,
-            "THI_Out": 81.6,
-            "THI_In": 80.6,
-            "Advies": "Alert"
-        },
-        {
             "Tijd": "19-06-2026 18:00",
-            "Temp_Out": 33.0,
-            "RH": 44.0,
-            "THI_Out": 81.0,
-            "THI_In": 80.2,
+            "Temp_Out": 32.0,
+            "RH": 48.0,
+            "THI_Out": 80.4,
+            "THI_In": 79.8,
             "Advies": "Alert"
         },
         {
             "Tijd": "19-06-2026 19:00",
-            "Temp_Out": 31.0,
-            "RH": 52.0,
-            "THI_Out": 79.8,
-            "THI_In": 79.4,
+            "Temp_Out": 30.0,
+            "RH": 54.0,
+            "THI_Out": 78.8,
+            "THI_In": 78.7,
             "Advies": "Alert"
         },
         {
             "Tijd": "19-06-2026 20:00",
             "Temp_Out": 29.0,
-            "RH": 53.0,
-            "THI_Out": 77.3,
-            "THI_In": 77.5,
+            "RH": 54.0,
+            "THI_Out": 77.5,
+            "THI_In": 77.6,
             "Advies": "Alert"
         },
         {
             "Tijd": "19-06-2026 21:00",
             "Temp_Out": 27.0,
-            "RH": 56.0,
-            "THI_Out": 75.1,
-            "THI_In": 75.7,
+            "RH": 57.0,
+            "THI_Out": 75.2,
+            "THI_In": 75.8,
             "Advies": "Alert"
         },
         {
             "Tijd": "19-06-2026 22:00",
             "Temp_Out": 26.0,
-            "RH": 58.0,
-            "THI_Out": 73.9,
-            "THI_In": 74.8,
+            "RH": 59.0,
+            "THI_Out": 74.0,
+            "THI_In": 75.0,
             "Advies": "Alert"
         },
         {
