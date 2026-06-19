@@ -72,7 +72,7 @@ def main():
             end_day = days_nl[end_object.weekday()]
             periodes.append(f"van {begin_day} {begin_object.strftime('%H:%M')} tot {end_day} {end_object.strftime('%H:%M')}")
         else:
-            periodes.append(f"van {begin_day} {begin_object.strftime('%H:%M')}")
+            periodes.append(f"vanaf {begin_day} {begin_object.strftime('%H:%M')}")
 
     # Bijv: van 18-06-2026 11:00 tot 19-06-2026 00:00 en van 19-06-2026 09:00 tot 20-06-2026 03:00 en van 20-06-2026 10:00 in Leeuwarden
     notification_body = " en ".join(periodes) + " in Leeuwarden"
