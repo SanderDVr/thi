@@ -2,62 +2,46 @@
     "station": "Maastricht",
     "lat": 50.91,
     "lon": 5.77,
-    "updated_at": "2026-06-19 23:49:13",
+    "updated_at": "2026-06-20 01:45:17",
     "forecast": [
-        {
-            "Tijd": "20-06-2026 00:00",
-            "Temp_Out": 22.0,
-            "RH": 69.0,
-            "THI_Out": 69.2,
-            "THI_In": 71.4,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "20-06-2026 01:00",
-            "Temp_Out": 22.0,
-            "RH": 73.0,
-            "THI_Out": 69.5,
-            "THI_In": 71.7,
-            "Advies": "Geen alert"
-        },
         {
             "Tijd": "20-06-2026 02:00",
             "Temp_Out": 22.0,
-            "RH": 75.0,
-            "THI_Out": 69.7,
-            "THI_In": 71.9,
+            "RH": 68.0,
+            "THI_Out": 69.2,
+            "THI_In": 71.3,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "20-06-2026 03:00",
             "Temp_Out": 21.0,
-            "RH": 78.0,
-            "THI_Out": 68.3,
-            "THI_In": 70.9,
+            "RH": 75.0,
+            "THI_Out": 68.2,
+            "THI_In": 70.6,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "20-06-2026 04:00",
             "Temp_Out": 21.0,
-            "RH": 81.0,
-            "THI_Out": 68.5,
-            "THI_In": 71.1,
+            "RH": 79.0,
+            "THI_Out": 68.4,
+            "THI_In": 71.0,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "20-06-2026 05:00",
             "Temp_Out": 21.0,
-            "RH": 84.0,
+            "RH": 83.0,
             "THI_Out": 68.7,
-            "THI_In": 71.4,
+            "THI_In": 71.3,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "20-06-2026 06:00",
             "Temp_Out": 21.0,
-            "RH": 85.0,
-            "THI_Out": 68.8,
-            "THI_In": 71.5,
+            "RH": 84.0,
+            "THI_Out": 68.7,
+            "THI_In": 71.4,
             "Advies": "Geen alert"
         },
         {
