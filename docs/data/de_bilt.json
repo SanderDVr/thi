@@ -2,38 +2,38 @@
     "station": "De Bilt",
     "lat": 52.1,
     "lon": 5.18,
-    "updated_at": "2026-06-19 09:12:18",
+    "updated_at": "2026-06-19 11:46:16",
     "forecast": [
         {
             "Tijd": "19-06-2026 12:00",
             "Temp_Out": 29.0,
-            "RH": 58.0,
-            "THI_Out": 78.1,
-            "THI_In": 78.2,
+            "RH": 59.0,
+            "THI_Out": 78.2,
+            "THI_In": 78.3,
             "Advies": "Alert"
         },
         {
             "Tijd": "19-06-2026 13:00",
             "Temp_Out": 31.0,
-            "RH": 52.0,
-            "THI_Out": 79.8,
-            "THI_In": 79.4,
+            "RH": 53.0,
+            "THI_Out": 80.0,
+            "THI_In": 79.6,
             "Advies": "Alert"
         },
         {
             "Tijd": "19-06-2026 14:00",
             "Temp_Out": 32.0,
-            "RH": 48.0,
-            "THI_Out": 80.4,
-            "THI_In": 79.8,
+            "RH": 49.0,
+            "THI_Out": 80.6,
+            "THI_In": 80.0,
             "Advies": "Alert"
         },
         {
             "Tijd": "19-06-2026 15:00",
             "Temp_Out": 33.0,
-            "RH": 45.0,
-            "THI_Out": 81.2,
-            "THI_In": 80.3,
+            "RH": 46.0,
+            "THI_Out": 81.4,
+            "THI_In": 80.5,
             "Advies": "Alert"
         },
         {
