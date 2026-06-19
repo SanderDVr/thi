@@ -1,5 +1,5 @@
 self.addEventListener('push', (event) => {
-  let payload = { title: 'Hittestress', body: 'Kon data niet ophalen', url: '/' };  // fallback message
+  let payload = { title: 'Hittestress', body: 'Kon data niet ophalen', url: '/thi' };  // fallback message
 
   if (event.data) {
     try {
@@ -12,7 +12,7 @@ self.addEventListener('push', (event) => {
   event.waitUntil(
     self.registration.showNotification(payload.title, {
       body: payload.body,
-      data: { url: payload.url || '/' },
+      data: { url: payload.url || '/thi' },
     })
   );
 });
