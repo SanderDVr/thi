@@ -2,32 +2,8 @@
     "station": "Alkmaar",
     "lat": 52.63,
     "lon": 4.75,
-    "updated_at": "2026-06-19 17:52:41",
+    "updated_at": "2026-06-19 20:21:32",
     "forecast": [
-        {
-            "Tijd": "19-06-2026 18:00",
-            "Temp_Out": 27.0,
-            "RH": 59.0,
-            "THI_Out": 75.4,
-            "THI_In": 76.1,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "19-06-2026 19:00",
-            "Temp_Out": 27.0,
-            "RH": 60.0,
-            "THI_Out": 75.6,
-            "THI_In": 76.2,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "19-06-2026 20:00",
-            "Temp_Out": 27.0,
-            "RH": 61.0,
-            "THI_Out": 75.7,
-            "THI_In": 76.3,
-            "Advies": "Alert"
-        },
         {
             "Tijd": "19-06-2026 21:00",
             "Temp_Out": 27.0,

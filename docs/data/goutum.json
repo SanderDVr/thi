@@ -2,54 +2,30 @@
     "station": "Goutum",
     "lat": 53.18,
     "lon": 5.8,
-    "updated_at": "2026-06-19 17:52:35",
+    "updated_at": "2026-06-19 20:21:26",
     "forecast": [
         {
-            "Tijd": "19-06-2026 18:00",
-            "Temp_Out": 30.0,
-            "RH": 56.0,
-            "THI_Out": 79.1,
-            "THI_In": 79.0,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "19-06-2026 19:00",
-            "Temp_Out": 29.0,
-            "RH": 60.0,
-            "THI_Out": 78.4,
-            "THI_In": 78.5,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "19-06-2026 20:00",
-            "Temp_Out": 28.0,
-            "RH": 66.0,
-            "THI_Out": 77.8,
-            "THI_In": 78.2,
-            "Advies": "Alert"
-        },
-        {
             "Tijd": "19-06-2026 21:00",
-            "Temp_Out": 27.0,
-            "RH": 70.0,
-            "THI_Out": 76.8,
-            "THI_In": 77.5,
+            "Temp_Out": 26.0,
+            "RH": 68.0,
+            "THI_Out": 75.1,
+            "THI_In": 76.1,
             "Advies": "Alert"
         },
         {
             "Tijd": "19-06-2026 22:00",
-            "Temp_Out": 26.0,
-            "RH": 69.0,
-            "THI_Out": 75.2,
-            "THI_In": 76.2,
+            "Temp_Out": 25.0,
+            "RH": 68.0,
+            "THI_Out": 73.6,
+            "THI_In": 74.9,
             "Advies": "Alert"
         },
         {
             "Tijd": "19-06-2026 23:00",
             "Temp_Out": 25.0,
-            "RH": 66.0,
-            "THI_Out": 73.4,
-            "THI_In": 74.6,
+            "RH": 65.0,
+            "THI_Out": 73.3,
+            "THI_In": 74.5,
             "Advies": "Alert"
         },
         {
