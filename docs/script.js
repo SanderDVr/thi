@@ -142,7 +142,19 @@ async function saveSubscription(subscription) {
 }
 
 async function removeSubscriptionFromSupabase(endpoint) {
-    const response = await fetch(`${SUPABASE_URL}/rest/v1/${SUPABASE_TABLE}?data->>endpoint=eq.${encodeURIComponent(endpoint)}`, {
+    // 1. Fetch all rows and find the matching one
+    const getRes = await fetch(`${SUPABASE_URL}/rest/v1/${SUPABASE_TABLE}?select=id,data`, {
+        headers: { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${SUPABASE_ANON_KEY}` },
+    });
+    const rows = await getRes.json();
+    const match = rows.find(row => row.data?.endpoint === endpoint);
+
+    if (!match) {
+        throw new Error('Subscription niet gevonden in Supabase.');
+    }
+
+    // 2. Delete by primary key (safe and reliable)
+    const delRes = await fetch(`${SUPABASE_URL}/rest/v1/${SUPABASE_TABLE}?id=eq.${match.id}`, {
         method: 'DELETE',
         headers: {
             apikey: SUPABASE_ANON_KEY,
@@ -151,9 +163,9 @@ async function removeSubscriptionFromSupabase(endpoint) {
         },
     });
 
-    if (!response.ok) {
-        const errorBody = await response.text();
-        throw new Error(`Supabase verwijdering mislukt: ${response.status} ${errorBody}`);
+    if (!delRes.ok) {
+        const errorBody = await delRes.text();
+        throw new Error(`Supabase verwijdering mislukt: ${delRes.status} ${errorBody}`);
     }
 }
 
