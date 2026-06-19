@@ -2,18 +2,26 @@
     "station": "Maastricht",
     "lat": 50.91,
     "lon": 5.77,
-    "updated_at": "2026-06-19 22:20:39",
+    "updated_at": "2026-06-19 23:49:13",
     "forecast": [
         {
-            "Tijd": "19-06-2026 23:00",
-            "Temp_Out": 23.0,
-            "RH": 73.0,
-            "THI_Out": 71.1,
-            "THI_In": 73.0,
-            "Advies": "Alert"
+            "Tijd": "20-06-2026 00:00",
+            "Temp_Out": 22.0,
+            "RH": 69.0,
+            "THI_Out": 69.2,
+            "THI_In": 71.4,
+            "Advies": "Geen alert"
         },
         {
-            "Tijd": "20-06-2026 00:00",
+            "Tijd": "20-06-2026 01:00",
+            "Temp_Out": 22.0,
+            "RH": 73.0,
+            "THI_Out": 69.5,
+            "THI_In": 71.7,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "20-06-2026 02:00",
             "Temp_Out": 22.0,
             "RH": 75.0,
             "THI_Out": 69.7,
@@ -21,27 +29,11 @@
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "20-06-2026 01:00",
-            "Temp_Out": 22.0,
-            "RH": 76.0,
-            "THI_Out": 69.8,
-            "THI_In": 72.0,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "20-06-2026 02:00",
-            "Temp_Out": 22.0,
-            "RH": 76.0,
-            "THI_Out": 69.8,
-            "THI_In": 72.0,
-            "Advies": "Geen alert"
-        },
-        {
             "Tijd": "20-06-2026 03:00",
             "Temp_Out": 21.0,
-            "RH": 79.0,
-            "THI_Out": 68.4,
-            "THI_In": 71.0,
+            "RH": 78.0,
+            "THI_Out": 68.3,
+            "THI_In": 70.9,
             "Advies": "Geen alert"
         },
         {

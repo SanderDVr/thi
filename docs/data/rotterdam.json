@@ -2,54 +2,46 @@
     "station": "Rotterdam",
     "lat": 51.95,
     "lon": 4.44,
-    "updated_at": "2026-06-19 22:20:40",
+    "updated_at": "2026-06-19 23:49:14",
     "forecast": [
         {
-            "Tijd": "19-06-2026 23:00",
-            "Temp_Out": 23.0,
-            "RH": 70.0,
-            "THI_Out": 70.8,
-            "THI_In": 72.7,
-            "Advies": "Alert"
-        },
-        {
             "Tijd": "20-06-2026 00:00",
-            "Temp_Out": 24.0,
-            "RH": 61.0,
-            "THI_Out": 71.5,
-            "THI_In": 72.9,
+            "Temp_Out": 23.0,
+            "RH": 69.0,
+            "THI_Out": 70.7,
+            "THI_In": 72.6,
             "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 01:00",
             "Temp_Out": 24.0,
-            "RH": 59.0,
-            "THI_Out": 71.3,
-            "THI_In": 72.7,
+            "RH": 63.0,
+            "THI_Out": 71.6,
+            "THI_In": 73.1,
             "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 02:00",
             "Temp_Out": 24.0,
-            "RH": 61.0,
-            "THI_Out": 71.5,
-            "THI_In": 72.9,
+            "RH": 63.0,
+            "THI_Out": 71.6,
+            "THI_In": 73.1,
             "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 03:00",
             "Temp_Out": 23.0,
-            "RH": 63.0,
-            "THI_Out": 70.2,
-            "THI_In": 72.0,
-            "Advies": "Geen alert"
+            "RH": 64.0,
+            "THI_Out": 70.3,
+            "THI_In": 72.1,
+            "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 04:00",
             "Temp_Out": 23.0,
-            "RH": 65.0,
-            "THI_Out": 70.4,
-            "THI_In": 72.2,
+            "RH": 66.0,
+            "THI_Out": 70.5,
+            "THI_In": 72.3,
             "Advies": "Alert"
         },
         {

@@ -2,46 +2,38 @@
     "station": "Arnhem",
     "lat": 51.98,
     "lon": 5.91,
-    "updated_at": "2026-06-19 22:20:46",
+    "updated_at": "2026-06-19 23:49:20",
     "forecast": [
         {
-            "Tijd": "19-06-2026 23:00",
-            "Temp_Out": 24.0,
-            "RH": 75.0,
-            "THI_Out": 72.8,
-            "THI_In": 74.4,
-            "Advies": "Alert"
-        },
-        {
             "Tijd": "20-06-2026 00:00",
-            "Temp_Out": 23.0,
-            "RH": 76.0,
-            "THI_Out": 71.3,
-            "THI_In": 73.3,
-            "Advies": "Alert"
+            "Temp_Out": 21.0,
+            "RH": 84.0,
+            "THI_Out": 68.7,
+            "THI_In": 71.4,
+            "Advies": "Geen alert"
         },
         {
             "Tijd": "20-06-2026 01:00",
-            "Temp_Out": 23.0,
-            "RH": 77.0,
-            "THI_Out": 71.4,
-            "THI_In": 73.4,
+            "Temp_Out": 22.0,
+            "RH": 81.0,
+            "THI_Out": 70.2,
+            "THI_In": 72.4,
             "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 02:00",
-            "Temp_Out": 23.0,
-            "RH": 77.0,
-            "THI_Out": 71.4,
-            "THI_In": 73.4,
+            "Temp_Out": 22.0,
+            "RH": 79.0,
+            "THI_Out": 70.0,
+            "THI_In": 72.3,
             "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 03:00",
             "Temp_Out": 22.0,
-            "RH": 77.0,
+            "RH": 78.0,
             "THI_Out": 69.9,
-            "THI_In": 72.1,
+            "THI_In": 72.2,
             "Advies": "Alert"
         },
         {

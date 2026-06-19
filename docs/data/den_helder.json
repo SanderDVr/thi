@@ -2,42 +2,26 @@
     "station": "Den Helder",
     "lat": 52.92,
     "lon": 4.78,
-    "updated_at": "2026-06-19 22:20:41",
+    "updated_at": "2026-06-19 23:49:16",
     "forecast": [
         {
-            "Tijd": "19-06-2026 23:00",
-            "Temp_Out": 25.0,
-            "RH": 69.0,
-            "THI_Out": 73.7,
-            "THI_In": 75.0,
-            "Advies": "Alert"
-        },
-        {
             "Tijd": "20-06-2026 00:00",
-            "Temp_Out": 25.0,
-            "RH": 69.0,
-            "THI_Out": 73.7,
-            "THI_In": 75.0,
+            "Temp_Out": 22.0,
+            "RH": 80.0,
+            "THI_Out": 70.1,
+            "THI_In": 72.4,
             "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 01:00",
-            "Temp_Out": 25.0,
-            "RH": 66.0,
-            "THI_Out": 73.4,
-            "THI_In": 74.6,
+            "Temp_Out": 23.0,
+            "RH": 72.0,
+            "THI_Out": 71.0,
+            "THI_In": 72.9,
             "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 02:00",
-            "Temp_Out": 24.0,
-            "RH": 63.0,
-            "THI_Out": 71.6,
-            "THI_In": 73.1,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "20-06-2026 03:00",
             "Temp_Out": 23.0,
             "RH": 66.0,
             "THI_Out": 70.5,
@@ -45,18 +29,26 @@
             "Advies": "Alert"
         },
         {
-            "Tijd": "20-06-2026 04:00",
+            "Tijd": "20-06-2026 03:00",
             "Temp_Out": 22.0,
-            "RH": 71.0,
-            "THI_Out": 69.4,
-            "THI_In": 71.5,
+            "RH": 68.0,
+            "THI_Out": 69.2,
+            "THI_In": 71.3,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "20-06-2026 04:00",
+            "Temp_Out": 21.0,
+            "RH": 72.0,
+            "THI_Out": 68.0,
+            "THI_In": 70.4,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "20-06-2026 05:00",
             "Temp_Out": 21.0,
-            "RH": 74.0,
-            "THI_Out": 68.1,
+            "RH": 75.0,
+            "THI_Out": 68.2,
             "THI_In": 70.6,
             "Advies": "Geen alert"
         },
