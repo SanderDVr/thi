@@ -2,54 +2,46 @@
     "station": "Zwolle",
     "lat": 52.51,
     "lon": 6.09,
-    "updated_at": "2026-06-19 08:31:41",
+    "updated_at": "2026-06-19 09:12:24",
     "forecast": [
-        {
-            "Tijd": "19-06-2026 11:00",
-            "Temp_Out": 27.0,
-            "RH": 66.0,
-            "THI_Out": 76.3,
-            "THI_In": 77.0,
-            "Advies": "Alert"
-        },
         {
             "Tijd": "19-06-2026 12:00",
             "Temp_Out": 29.0,
-            "RH": 57.0,
-            "THI_Out": 77.9,
-            "THI_In": 78.0,
+            "RH": 60.0,
+            "THI_Out": 78.4,
+            "THI_In": 78.5,
             "Advies": "Alert"
         },
         {
             "Tijd": "19-06-2026 13:00",
             "Temp_Out": 31.0,
-            "RH": 51.0,
-            "THI_Out": 79.7,
-            "THI_In": 79.3,
+            "RH": 53.0,
+            "THI_Out": 80.0,
+            "THI_In": 79.6,
             "Advies": "Alert"
         },
         {
             "Tijd": "19-06-2026 14:00",
             "Temp_Out": 32.0,
-            "RH": 47.0,
-            "THI_Out": 80.3,
-            "THI_In": 79.7,
+            "RH": 48.0,
+            "THI_Out": 80.4,
+            "THI_In": 79.8,
             "Advies": "Alert"
         },
         {
             "Tijd": "19-06-2026 15:00",
             "Temp_Out": 33.0,
-            "RH": 43.0,
-            "THI_Out": 80.8,
-            "THI_In": 80.0,
+            "RH": 44.0,
+            "THI_Out": 81.0,
+            "THI_In": 80.2,
             "Advies": "Alert"
         },
         {
             "Tijd": "19-06-2026 16:00",
             "Temp_Out": 34.0,
-            "RH": 40.0,
-            "THI_Out": 81.4,
-            "THI_In": 80.4,
+            "RH": 41.0,
+            "THI_Out": 81.6,
+            "THI_In": 80.6,
             "Advies": "Alert"
         },
         {
