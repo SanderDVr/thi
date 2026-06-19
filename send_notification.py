@@ -104,7 +104,7 @@ def main():
                 data=json.dumps({
                     "title": "Hittestress",
                     "body": notification_body,
-                    "url": "/",
+                    "url": "/thi",
                 }),
                 vapid_private_key=VAPID_PRIVATE_KEY,
                 vapid_claims={"sub": VAPID_SUBJECT}
