@@ -2,24 +2,8 @@
     "station": "Zwolle",
     "lat": 52.51,
     "lon": 6.09,
-    "updated_at": "2026-06-20 15:11:54",
+    "updated_at": "2026-06-20 17:25:10",
     "forecast": [
-        {
-            "Tijd": "20-06-2026 16:00",
-            "Temp_Out": 28.0,
-            "RH": 65.0,
-            "THI_Out": 77.6,
-            "THI_In": 78.0,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "20-06-2026 17:00",
-            "Temp_Out": 28.0,
-            "RH": 61.0,
-            "THI_Out": 77.1,
-            "THI_In": 77.5,
-            "Advies": "Alert"
-        },
         {
             "Tijd": "20-06-2026 18:00",
             "Temp_Out": 27.0,

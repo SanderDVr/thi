@@ -2,62 +2,46 @@
     "station": "Eindhoven",
     "lat": 51.45,
     "lon": 5.37,
-    "updated_at": "2026-06-20 15:11:51",
+    "updated_at": "2026-06-20 17:25:07",
     "forecast": [
         {
-            "Tijd": "20-06-2026 16:00",
-            "Temp_Out": 30.0,
-            "RH": 48.0,
-            "THI_Out": 77.9,
-            "THI_In": 77.8,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "20-06-2026 17:00",
-            "Temp_Out": 30.0,
-            "RH": 47.0,
-            "THI_Out": 77.7,
-            "THI_In": 77.6,
-            "Advies": "Alert"
-        },
-        {
             "Tijd": "20-06-2026 18:00",
-            "Temp_Out": 30.0,
-            "RH": 47.0,
-            "THI_Out": 77.7,
-            "THI_In": 77.6,
+            "Temp_Out": 29.0,
+            "RH": 49.0,
+            "THI_Out": 76.8,
+            "THI_In": 76.9,
             "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 19:00",
-            "Temp_Out": 30.0,
-            "RH": 48.0,
-            "THI_Out": 77.9,
-            "THI_In": 77.8,
+            "Temp_Out": 29.0,
+            "RH": 49.0,
+            "THI_Out": 76.8,
+            "THI_In": 76.9,
             "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 20:00",
-            "Temp_Out": 29.0,
+            "Temp_Out": 28.0,
             "RH": 51.0,
-            "THI_Out": 77.0,
-            "THI_In": 77.2,
+            "THI_Out": 75.7,
+            "THI_In": 76.1,
             "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 21:00",
-            "Temp_Out": 28.0,
+            "Temp_Out": 27.0,
             "RH": 54.0,
-            "THI_Out": 76.1,
-            "THI_In": 76.5,
+            "THI_Out": 74.8,
+            "THI_In": 75.4,
             "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 22:00",
-            "Temp_Out": 27.0,
+            "Temp_Out": 26.0,
             "RH": 58.0,
-            "THI_Out": 75.3,
-            "THI_In": 76.0,
+            "THI_Out": 73.9,
+            "THI_In": 74.8,
             "Advies": "Alert"
         },
         {
