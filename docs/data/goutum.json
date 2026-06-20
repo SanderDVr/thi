@@ -2,70 +2,46 @@
     "station": "Goutum",
     "lat": 53.18,
     "lon": 5.8,
-    "updated_at": "2026-06-20 10:35:04",
+    "updated_at": "2026-06-20 13:02:04",
     "forecast": [
-        {
-            "Tijd": "20-06-2026 11:00",
-            "Temp_Out": 24.0,
-            "RH": 77.0,
-            "THI_Out": 73.0,
-            "THI_In": 74.6,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "20-06-2026 12:00",
-            "Temp_Out": 25.0,
-            "RH": 75.0,
-            "THI_Out": 74.3,
-            "THI_In": 75.7,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "20-06-2026 13:00",
-            "Temp_Out": 26.0,
-            "RH": 72.0,
-            "THI_Out": 75.6,
-            "THI_In": 76.6,
-            "Advies": "Alert"
-        },
         {
             "Tijd": "20-06-2026 14:00",
             "Temp_Out": 26.0,
-            "RH": 70.0,
-            "THI_Out": 75.3,
-            "THI_In": 76.3,
+            "RH": 63.0,
+            "THI_Out": 74.5,
+            "THI_In": 75.5,
             "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 15:00",
             "Temp_Out": 26.0,
-            "RH": 68.0,
-            "THI_Out": 75.1,
-            "THI_In": 76.1,
+            "RH": 65.0,
+            "THI_Out": 74.7,
+            "THI_In": 75.7,
             "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 16:00",
             "Temp_Out": 25.0,
-            "RH": 68.0,
-            "THI_Out": 73.6,
-            "THI_In": 74.9,
+            "RH": 67.0,
+            "THI_Out": 73.5,
+            "THI_In": 74.8,
             "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 17:00",
             "Temp_Out": 24.0,
-            "RH": 68.0,
-            "THI_Out": 72.1,
-            "THI_In": 73.7,
+            "RH": 67.0,
+            "THI_Out": 72.0,
+            "THI_In": 73.6,
             "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 18:00",
             "Temp_Out": 23.0,
-            "RH": 69.0,
-            "THI_Out": 70.7,
-            "THI_In": 72.6,
+            "RH": 68.0,
+            "THI_Out": 70.6,
+            "THI_In": 72.5,
             "Advies": "Alert"
         },
         {

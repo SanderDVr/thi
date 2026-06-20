@@ -2,62 +2,38 @@
     "station": "Maastricht",
     "lat": 50.91,
     "lon": 5.77,
-    "updated_at": "2026-06-20 10:35:06",
+    "updated_at": "2026-06-20 13:02:05",
     "forecast": [
         {
-            "Tijd": "20-06-2026 11:00",
-            "Temp_Out": 27.0,
-            "RH": 65.0,
-            "THI_Out": 76.2,
-            "THI_In": 76.9,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "20-06-2026 12:00",
-            "Temp_Out": 29.0,
-            "RH": 61.0,
-            "THI_Out": 78.5,
-            "THI_In": 78.6,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "20-06-2026 13:00",
-            "Temp_Out": 30.0,
-            "RH": 56.0,
-            "THI_Out": 79.1,
-            "THI_In": 79.0,
-            "Advies": "Alert"
-        },
-        {
             "Tijd": "20-06-2026 14:00",
-            "Temp_Out": 31.0,
-            "RH": 51.0,
-            "THI_Out": 79.7,
-            "THI_In": 79.3,
+            "Temp_Out": 30.0,
+            "RH": 55.0,
+            "THI_Out": 79.0,
+            "THI_In": 78.8,
             "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 15:00",
-            "Temp_Out": 32.0,
-            "RH": 48.0,
-            "THI_Out": 80.4,
-            "THI_In": 79.8,
+            "Temp_Out": 31.0,
+            "RH": 50.0,
+            "THI_Out": 79.5,
+            "THI_In": 79.1,
             "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 16:00",
             "Temp_Out": 32.0,
-            "RH": 46.0,
-            "THI_Out": 80.1,
-            "THI_In": 79.5,
+            "RH": 47.0,
+            "THI_Out": 80.3,
+            "THI_In": 79.7,
             "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 17:00",
             "Temp_Out": 32.0,
-            "RH": 46.0,
-            "THI_Out": 80.1,
-            "THI_In": 79.5,
+            "RH": 47.0,
+            "THI_Out": 80.3,
+            "THI_In": 79.7,
             "Advies": "Alert"
         },
         {
