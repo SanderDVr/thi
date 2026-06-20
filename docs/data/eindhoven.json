@@ -2,22 +2,14 @@
     "station": "Eindhoven",
     "lat": 51.45,
     "lon": 5.37,
-    "updated_at": "2026-06-20 19:08:03",
+    "updated_at": "2026-06-20 20:59:04",
     "forecast": [
         {
-            "Tijd": "20-06-2026 20:00",
-            "Temp_Out": 28.0,
-            "RH": 54.0,
-            "THI_Out": 76.1,
-            "THI_In": 76.5,
-            "Advies": "Alert"
-        },
-        {
             "Tijd": "20-06-2026 21:00",
-            "Temp_Out": 27.0,
+            "Temp_Out": 26.0,
             "RH": 56.0,
-            "THI_Out": 75.1,
-            "THI_In": 75.7,
+            "THI_Out": 73.7,
+            "THI_In": 74.6,
             "Advies": "Alert"
         },
         {
