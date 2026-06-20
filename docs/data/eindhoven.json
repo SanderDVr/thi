@@ -2,54 +2,38 @@
     "station": "Eindhoven",
     "lat": 51.45,
     "lon": 5.37,
-    "updated_at": "2026-06-20 22:54:05",
+    "updated_at": "2026-06-21 00:47:53",
     "forecast": [
         {
-            "Tijd": "20-06-2026 23:00",
-            "Temp_Out": 23.0,
-            "RH": 70.0,
-            "THI_Out": 70.8,
-            "THI_In": 72.7,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "21-06-2026 00:00",
-            "Temp_Out": 24.0,
-            "RH": 66.0,
-            "THI_Out": 71.9,
-            "THI_In": 73.5,
-            "Advies": "Alert"
-        },
-        {
             "Tijd": "21-06-2026 01:00",
-            "Temp_Out": 24.0,
-            "RH": 66.0,
-            "THI_Out": 71.9,
-            "THI_In": 73.5,
+            "Temp_Out": 23.0,
+            "RH": 73.0,
+            "THI_Out": 71.1,
+            "THI_In": 73.0,
             "Advies": "Alert"
         },
         {
             "Tijd": "21-06-2026 02:00",
             "Temp_Out": 24.0,
-            "RH": 66.0,
-            "THI_Out": 71.9,
-            "THI_In": 73.5,
+            "RH": 69.0,
+            "THI_Out": 72.2,
+            "THI_In": 73.8,
             "Advies": "Alert"
         },
         {
             "Tijd": "21-06-2026 03:00",
             "Temp_Out": 24.0,
-            "RH": 70.0,
-            "THI_Out": 72.3,
-            "THI_In": 73.9,
+            "RH": 72.0,
+            "THI_Out": 72.5,
+            "THI_In": 74.1,
             "Advies": "Alert"
         },
         {
             "Tijd": "21-06-2026 04:00",
             "Temp_Out": 23.0,
-            "RH": 81.0,
-            "THI_Out": 71.8,
-            "THI_In": 73.7,
+            "RH": 82.0,
+            "THI_Out": 71.9,
+            "THI_In": 73.8,
             "Advies": "Alert"
         },
         {

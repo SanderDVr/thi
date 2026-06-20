@@ -2,54 +2,38 @@
     "station": "Alkmaar",
     "lat": 52.63,
     "lon": 4.75,
-    "updated_at": "2026-06-20 22:54:07",
+    "updated_at": "2026-06-21 00:47:55",
     "forecast": [
-        {
-            "Tijd": "20-06-2026 23:00",
-            "Temp_Out": 20.0,
-            "RH": 81.0,
-            "THI_Out": 66.9,
-            "THI_In": 69.8,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "21-06-2026 00:00",
-            "Temp_Out": 20.0,
-            "RH": 80.0,
-            "THI_Out": 66.9,
-            "THI_In": 69.8,
-            "Advies": "Geen alert"
-        },
         {
             "Tijd": "21-06-2026 01:00",
             "Temp_Out": 20.0,
-            "RH": 80.0,
-            "THI_Out": 66.9,
-            "THI_In": 69.8,
+            "RH": 83.0,
+            "THI_Out": 67.0,
+            "THI_In": 70.0,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "21-06-2026 02:00",
             "Temp_Out": 20.0,
-            "RH": 79.0,
-            "THI_Out": 66.8,
-            "THI_In": 69.7,
+            "RH": 80.0,
+            "THI_Out": 66.9,
+            "THI_In": 69.8,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "21-06-2026 03:00",
             "Temp_Out": 20.0,
-            "RH": 79.0,
-            "THI_Out": 66.8,
-            "THI_In": 69.7,
+            "RH": 80.0,
+            "THI_Out": 66.9,
+            "THI_In": 69.8,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "21-06-2026 04:00",
             "Temp_Out": 19.0,
-            "RH": 81.0,
-            "THI_Out": 65.3,
-            "THI_In": 68.5,
+            "RH": 82.0,
+            "THI_Out": 65.4,
+            "THI_In": 68.6,
             "Advies": "Geen alert"
         },
         {
