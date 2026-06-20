@@ -2,62 +2,46 @@
     "station": "Leeuwarden",
     "lat": 53.22,
     "lon": 5.75,
-    "updated_at": "2026-06-20 17:25:03",
+    "updated_at": "2026-06-20 19:07:56",
     "forecast": [
-        {
-            "Tijd": "20-06-2026 18:00",
-            "Temp_Out": 23.0,
-            "RH": 68.0,
-            "THI_Out": 70.6,
-            "THI_In": 72.5,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "20-06-2026 19:00",
-            "Temp_Out": 23.0,
-            "RH": 68.0,
-            "THI_Out": 70.6,
-            "THI_In": 72.5,
-            "Advies": "Alert"
-        },
         {
             "Tijd": "20-06-2026 20:00",
             "Temp_Out": 22.0,
-            "RH": 69.0,
-            "THI_Out": 69.2,
-            "THI_In": 71.4,
+            "RH": 71.0,
+            "THI_Out": 69.4,
+            "THI_In": 71.5,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "20-06-2026 21:00",
             "Temp_Out": 21.0,
-            "RH": 72.0,
+            "RH": 73.0,
             "THI_Out": 68.0,
-            "THI_In": 70.4,
+            "THI_In": 70.5,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "20-06-2026 22:00",
             "Temp_Out": 20.0,
-            "RH": 75.0,
-            "THI_Out": 66.6,
-            "THI_In": 69.4,
-            "Advies": "Geen alert"
-        },
-        {
-            "Tijd": "20-06-2026 23:00",
-            "Temp_Out": 20.0,
-            "RH": 77.0,
+            "RH": 76.0,
             "THI_Out": 66.7,
             "THI_In": 69.5,
             "Advies": "Geen alert"
         },
         {
-            "Tijd": "21-06-2026 00:00",
+            "Tijd": "20-06-2026 23:00",
             "Temp_Out": 20.0,
             "RH": 78.0,
             "THI_Out": 66.8,
             "THI_In": 69.6,
+            "Advies": "Geen alert"
+        },
+        {
+            "Tijd": "21-06-2026 00:00",
+            "Temp_Out": 20.0,
+            "RH": 79.0,
+            "THI_Out": 66.8,
+            "THI_In": 69.7,
             "Advies": "Geen alert"
         },
         {

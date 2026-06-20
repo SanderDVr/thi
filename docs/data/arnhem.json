@@ -2,70 +2,54 @@
     "station": "Arnhem",
     "lat": 51.98,
     "lon": 5.91,
-    "updated_at": "2026-06-20 17:25:10",
+    "updated_at": "2026-06-20 19:08:07",
     "forecast": [
         {
-            "Tijd": "20-06-2026 18:00",
-            "Temp_Out": 29.0,
-            "RH": 50.0,
-            "THI_Out": 76.9,
-            "THI_In": 77.0,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "20-06-2026 19:00",
-            "Temp_Out": 29.0,
-            "RH": 53.0,
-            "THI_Out": 77.3,
-            "THI_In": 77.5,
-            "Advies": "Alert"
-        },
-        {
             "Tijd": "20-06-2026 20:00",
-            "Temp_Out": 28.0,
-            "RH": 59.0,
-            "THI_Out": 76.8,
-            "THI_In": 77.2,
+            "Temp_Out": 26.0,
+            "RH": 57.0,
+            "THI_Out": 73.8,
+            "THI_In": 74.7,
             "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 21:00",
-            "Temp_Out": 26.0,
-            "RH": 65.0,
-            "THI_Out": 74.7,
-            "THI_In": 75.7,
+            "Temp_Out": 25.0,
+            "RH": 64.0,
+            "THI_Out": 73.2,
+            "THI_In": 74.4,
             "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 22:00",
-            "Temp_Out": 25.0,
-            "RH": 68.0,
-            "THI_Out": 73.6,
-            "THI_In": 74.9,
+            "Temp_Out": 24.0,
+            "RH": 67.0,
+            "THI_Out": 72.0,
+            "THI_In": 73.6,
             "Advies": "Alert"
         },
         {
             "Tijd": "20-06-2026 23:00",
-            "Temp_Out": 24.0,
-            "RH": 71.0,
-            "THI_Out": 72.4,
-            "THI_In": 74.0,
+            "Temp_Out": 23.0,
+            "RH": 70.0,
+            "THI_Out": 70.8,
+            "THI_In": 72.7,
             "Advies": "Alert"
         },
         {
             "Tijd": "21-06-2026 00:00",
             "Temp_Out": 23.0,
-            "RH": 73.0,
-            "THI_Out": 71.1,
-            "THI_In": 73.0,
+            "RH": 72.0,
+            "THI_Out": 71.0,
+            "THI_In": 72.9,
             "Advies": "Alert"
         },
         {
             "Tijd": "21-06-2026 01:00",
             "Temp_Out": 23.0,
-            "RH": 74.0,
-            "THI_Out": 71.2,
-            "THI_In": 73.1,
+            "RH": 73.0,
+            "THI_Out": 71.1,
+            "THI_In": 73.0,
             "Advies": "Alert"
         },
         {

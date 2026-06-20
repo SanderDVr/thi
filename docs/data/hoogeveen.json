@@ -2,24 +2,8 @@
     "station": "Hoogeveen",
     "lat": 52.75,
     "lon": 6.52,
-    "updated_at": "2026-06-20 17:25:09",
+    "updated_at": "2026-06-20 19:08:05",
     "forecast": [
-        {
-            "Tijd": "20-06-2026 18:00",
-            "Temp_Out": 27.0,
-            "RH": 56.0,
-            "THI_Out": 75.1,
-            "THI_In": 75.7,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "20-06-2026 19:00",
-            "Temp_Out": 26.0,
-            "RH": 62.0,
-            "THI_Out": 74.4,
-            "THI_In": 75.3,
-            "Advies": "Alert"
-        },
         {
             "Tijd": "20-06-2026 20:00",
             "Temp_Out": 25.0,
