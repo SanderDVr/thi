@@ -2,58 +2,26 @@
     "station": "Zwolle",
     "lat": 52.51,
     "lon": 6.09,
-    "updated_at": "2026-06-21 09:19:40",
+    "updated_at": "2026-06-21 12:55:50",
     "forecast": [
         {
-            "Tijd": "21-06-2026 10:00",
-            "Temp_Out": 22.0,
-            "RH": 83.0,
-            "THI_Out": 70.3,
-            "THI_In": 72.6,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "21-06-2026 11:00",
-            "Temp_Out": 23.0,
-            "RH": 75.0,
-            "THI_Out": 71.2,
-            "THI_In": 73.2,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "21-06-2026 12:00",
-            "Temp_Out": 24.0,
-            "RH": 69.0,
-            "THI_Out": 72.2,
-            "THI_In": 73.8,
-            "Advies": "Alert"
-        },
-        {
             "Tijd": "21-06-2026 13:00",
-            "Temp_Out": 26.0,
-            "RH": 63.0,
-            "THI_Out": 74.5,
-            "THI_In": 75.5,
+            "Temp_Out": 27.0,
+            "RH": 61.0,
+            "THI_Out": 75.7,
+            "THI_In": 76.3,
             "Advies": "Alert"
         },
         {
             "Tijd": "21-06-2026 14:00",
-            "Temp_Out": 27.0,
-            "RH": 58.0,
-            "THI_Out": 75.3,
-            "THI_In": 76.0,
+            "Temp_Out": 28.0,
+            "RH": 57.0,
+            "THI_Out": 76.6,
+            "THI_In": 76.9,
             "Advies": "Alert"
         },
         {
             "Tijd": "21-06-2026 15:00",
-            "Temp_Out": 28.0,
-            "RH": 55.0,
-            "THI_Out": 76.3,
-            "THI_In": 76.7,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "21-06-2026 16:00",
             "Temp_Out": 28.0,
             "RH": 54.0,
             "THI_Out": 76.1,
@@ -61,19 +29,27 @@
             "Advies": "Alert"
         },
         {
+            "Tijd": "21-06-2026 16:00",
+            "Temp_Out": 28.0,
+            "RH": 53.0,
+            "THI_Out": 76.0,
+            "THI_In": 76.4,
+            "Advies": "Alert"
+        },
+        {
             "Tijd": "21-06-2026 17:00",
             "Temp_Out": 28.0,
-            "RH": 55.0,
-            "THI_Out": 76.3,
-            "THI_In": 76.7,
+            "RH": 54.0,
+            "THI_Out": 76.1,
+            "THI_In": 76.5,
             "Advies": "Alert"
         },
         {
             "Tijd": "21-06-2026 18:00",
             "Temp_Out": 27.0,
-            "RH": 58.0,
-            "THI_Out": 75.3,
-            "THI_In": 76.0,
+            "RH": 57.0,
+            "THI_Out": 75.2,
+            "THI_In": 75.8,
             "Advies": "Alert"
         },
         {
