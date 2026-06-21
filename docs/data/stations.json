@@ -16,10 +16,6 @@
         "file": "maastricht.json"
     },
     {
-        "name": "Rotterdam",
-        "file": "rotterdam.json"
-    },
-    {
         "name": "Vlissingen",
         "file": "vlissingen.json"
     },
@@ -36,11 +32,7 @@
         "file": "lelystad.json"
     },
     {
-        "name": "Hoogeveen",
-        "file": "hoogeveen.json"
-    },
-    {
-        "name": "Alkmaar",
-        "file": "alkmaar.json"
+        "name": "Zwolle",
+        "file": "zwolle.json"
     }
 ]
