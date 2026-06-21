@@ -2,38 +2,22 @@
     "station": "Goutum",
     "lat": 53.18,
     "lon": 5.8,
-    "updated_at": "2026-06-21 15:25:04",
+    "updated_at": "2026-06-21 17:30:35",
     "forecast": [
-        {
-            "Tijd": "21-06-2026 16:00",
-            "Temp_Out": 23.0,
-            "RH": 66.0,
-            "THI_Out": 70.5,
-            "THI_In": 72.3,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "21-06-2026 17:00",
-            "Temp_Out": 22.0,
-            "RH": 65.0,
-            "THI_Out": 68.9,
-            "THI_In": 71.0,
-            "Advies": "Geen alert"
-        },
         {
             "Tijd": "21-06-2026 18:00",
             "Temp_Out": 21.0,
-            "RH": 65.0,
-            "THI_Out": 67.5,
-            "THI_In": 69.8,
+            "RH": 67.0,
+            "THI_Out": 67.6,
+            "THI_In": 70.0,
             "Advies": "Geen alert"
         },
         {
             "Tijd": "21-06-2026 19:00",
             "Temp_Out": 20.0,
-            "RH": 64.0,
+            "RH": 65.0,
             "THI_Out": 66.0,
-            "THI_In": 68.6,
+            "THI_In": 68.7,
             "Advies": "Geen alert"
         },
         {

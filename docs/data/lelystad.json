@@ -2,54 +2,38 @@
     "station": "Lelystad",
     "lat": 52.45,
     "lon": 5.52,
-    "updated_at": "2026-06-21 15:25:09",
+    "updated_at": "2026-06-21 17:30:40",
     "forecast": [
         {
-            "Tijd": "21-06-2026 16:00",
-            "Temp_Out": 27.0,
-            "RH": 58.0,
-            "THI_Out": 75.3,
-            "THI_In": 76.0,
-            "Advies": "Alert"
-        },
-        {
-            "Tijd": "21-06-2026 17:00",
-            "Temp_Out": 27.0,
-            "RH": 58.0,
-            "THI_Out": 75.3,
-            "THI_In": 76.0,
-            "Advies": "Alert"
-        },
-        {
             "Tijd": "21-06-2026 18:00",
-            "Temp_Out": 27.0,
-            "RH": 59.0,
-            "THI_Out": 75.4,
-            "THI_In": 76.1,
+            "Temp_Out": 26.0,
+            "RH": 63.0,
+            "THI_Out": 74.5,
+            "THI_In": 75.5,
             "Advies": "Alert"
         },
         {
             "Tijd": "21-06-2026 19:00",
             "Temp_Out": 26.0,
-            "RH": 60.0,
-            "THI_Out": 74.2,
-            "THI_In": 75.1,
+            "RH": 62.0,
+            "THI_Out": 74.4,
+            "THI_In": 75.3,
             "Advies": "Alert"
         },
         {
             "Tijd": "21-06-2026 20:00",
             "Temp_Out": 25.0,
-            "RH": 61.0,
-            "THI_Out": 72.9,
-            "THI_In": 74.1,
+            "RH": 62.0,
+            "THI_Out": 73.0,
+            "THI_In": 74.2,
             "Advies": "Alert"
         },
         {
             "Tijd": "21-06-2026 21:00",
             "Temp_Out": 24.0,
-            "RH": 61.0,
-            "THI_Out": 71.5,
-            "THI_In": 72.9,
+            "RH": 62.0,
+            "THI_Out": 71.6,
+            "THI_In": 73.0,
             "Advies": "Alert"
         },
         {
