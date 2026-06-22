@@ -3,7 +3,7 @@ async function init() {
         const response = await fetch('data/stations.json');
         const stations = await response.json();
         const select = document.getElementById('station-select');
-        
+
         stations.forEach(station => {
             const option = document.createElement('option');
             option.value = station.file;
@@ -113,48 +113,82 @@ async function createPushSubscription(registration) {
     });
 }
 
+function setCookie(name, value, days) {
+    const expires = new Date(Date.now() + days * 864e5).toUTCString();
+    document.cookie = `${name}=${encodeURIComponent(value)}; expires=${expires}; path=/; SameSite=Strict`;
+}
+
+function getCookie(name) {
+    return document.cookie.split('; ').reduce((acc, part) => {
+        const [k, v] = part.split('=');
+        return k === name ? decodeURIComponent(v) : acc;
+    }, null);
+}
+
+function deleteCookie(name) {
+    document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+}
+
 async function saveSubscription(subscription) {
     const subscriptionData = subscription.toJSON();
+    setCookie('subscription', JSON.stringify(subscriptionData), 365);
+
+    // Check if endpoint already exists
+    const checkResponse = await fetch(
+        `${SUPABASE_URL}/rest/v1/${SUPABASE_TABLE}?select=id&data->>'endpoint'=eq.${subscriptionData.endpoint}`,
+        {
+            headers: {
+                apikey: SUPABASE_ANON_KEY,
+                Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
+            },
+        }
+    );
+
+    const existing = await checkResponse.json();
+    if (existing.length > 0) {
+        console.log('Subscription already exists, reusing row id:', existing[0].id);
+        setCookie('supabase_row_id', existing[0].id, 365);
+        return;
+    }
+
+    // Insert new row
     const response = await fetch(`${SUPABASE_URL}/rest/v1/${SUPABASE_TABLE}`, {
         method: 'POST',
         headers: {
             apikey: SUPABASE_ANON_KEY,
             Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
             'Content-Type': 'application/json',
-            Prefer: 'return=minimal',
+            Prefer: 'return=representation',
         },
-        body: JSON.stringify([
-            {
-                data: {
-                    endpoint: subscription.endpoint,
-                    subscription: subscriptionData,
-                    keys: subscriptionData.keys || null,
-                    saved_at: new Date().toISOString(),
-                },
+        body: JSON.stringify([{
+            data: {
+                endpoint: subscription.endpoint,
+                subscription: subscriptionData,
+                keys: subscriptionData.keys || null,
+                saved_at: new Date().toISOString(),
             },
-        ]),
+        }]),
     });
 
     if (!response.ok) {
+        if (response.status === 409) {
+            setStatus('Je bent al geabonneerd op notificaties.');
+            return;
+        }
         const errorBody = await response.text();
         throw new Error(`Supabase opslag mislukt: ${response.status} ${errorBody}`);
     }
+
+    const rows = await response.json();
+    setCookie('supabase_row_id', rows[0].id, 365);
+    console.log('Saved new row id:', rows[0].id);
 }
 
-async function removeSubscriptionFromSupabase(endpoint) {
-    // 1. Fetch all rows and find the matching one
-    const getRes = await fetch(`${SUPABASE_URL}/rest/v1/${SUPABASE_TABLE}?select=id,data`, {
-        headers: { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${SUPABASE_ANON_KEY}` },
-    });
-    const rows = await getRes.json();
-    const match = rows.find(row => row.data?.endpoint === endpoint);
+async function removeSubscriptionFromSupabase() {
+    const id = getCookie('supabase_row_id');
+    if (!id) throw new Error('Geen rij-id gevonden in cookie.');
 
-    if (!match) {
-        throw new Error('Subscription niet gevonden in Supabase.');
-    }
-
-    // 2. Delete by primary key (safe and reliable)
-    const delRes = await fetch(`${SUPABASE_URL}/rest/v1/${SUPABASE_TABLE}?id=eq.${match.id}`, {
+    const response = await fetch(`${SUPABASE_URL}/rest/v1/${SUPABASE_TABLE}?id=eq.${id}`, {
         method: 'DELETE',
         headers: {
             apikey: SUPABASE_ANON_KEY,
@@ -163,10 +197,12 @@ async function removeSubscriptionFromSupabase(endpoint) {
         },
     });
 
-    if (!delRes.ok) {
-        const errorBody = await delRes.text();
-        throw new Error(`Supabase verwijdering mislukt: ${delRes.status} ${errorBody}`);
+    if (!response.ok) {
+        const errorBody = await response.text();
+        throw new Error(`Supabase verwijdering mislukt: ${response.status} ${errorBody}`);
     }
+
+    deleteCookie('supabase_row_id');
 }
 
 async function subscribeToNotifications() {
@@ -207,7 +243,7 @@ async function unsubscribeFromNotifications() {
     await subscription.unsubscribe();
 
     setStatus('Subscription verwijderen uit Supabase...');
-    await removeSubscriptionFromSupabase(endpoint);
+    await removeSubscriptionFromSupabase();
 
     setStatus('Klaar. Deze browser is gedesubscribed en uit Supabase verwijderd.');
 }
@@ -263,7 +299,7 @@ function updateUI(data) {
     // Update status box
     const maxTHI = Math.max(...data.forecast.map(f => f.THI_In));
     const statusBox = document.getElementById('status-box');
-    
+
     if (maxTHI < 68) {
         statusBox.className = 'status-box status-green';
         statusBox.textContent = 'Geen stress';
@@ -329,15 +365,15 @@ function renderChart(forecast) {
         legend: { orientation: 'h', y: -0.2 },
         margin: { t: 20, b: 50, l: 50, r: 20 },
         shapes: [
-            { type: 'rect', xref: 'paper', yref: 'y', x0: 0, x1: 1, y0: 0, y1: 68, fillcolor: 'lightgreen', opacity: 0.2, line: {width: 0}, layer: 'below' },
-            { type: 'rect', xref: 'paper', yref: 'y', x0: 0, x1: 1, y0: 68, y1: 72, fillcolor: 'yellow', opacity: 0.2, line: {width: 0}, layer: 'below' },
-            { type: 'rect', xref: 'paper', yref: 'y', x0: 0, x1: 1, y0: 72, y1: 78, fillcolor: 'orange', opacity: 0.2, line: {width: 0}, layer: 'below' },
-            { type: 'rect', xref: 'paper', yref: 'y', x0: 0, x1: 1, y0: 78, y1: 82, fillcolor: 'red', opacity: 0.2, line: {width: 0}, layer: 'below' },
-            { type: 'rect', xref: 'paper', yref: 'y', x0: 0, x1: 1, y0: 82, y1: 100, fillcolor: 'darkred', opacity: 0.2, line: {width: 0}, layer: 'below' }
+            { type: 'rect', xref: 'paper', yref: 'y', x0: 0, x1: 1, y0: 0, y1: 68, fillcolor: 'lightgreen', opacity: 0.2, line: { width: 0 }, layer: 'below' },
+            { type: 'rect', xref: 'paper', yref: 'y', x0: 0, x1: 1, y0: 68, y1: 72, fillcolor: 'yellow', opacity: 0.2, line: { width: 0 }, layer: 'below' },
+            { type: 'rect', xref: 'paper', yref: 'y', x0: 0, x1: 1, y0: 72, y1: 78, fillcolor: 'orange', opacity: 0.2, line: { width: 0 }, layer: 'below' },
+            { type: 'rect', xref: 'paper', yref: 'y', x0: 0, x1: 1, y0: 78, y1: 82, fillcolor: 'red', opacity: 0.2, line: { width: 0 }, layer: 'below' },
+            { type: 'rect', xref: 'paper', yref: 'y', x0: 0, x1: 1, y0: 82, y1: 100, fillcolor: 'darkred', opacity: 0.2, line: { width: 0 }, layer: 'below' }
         ]
     };
 
-    Plotly.newPlot('thi-chart', [traceIn, traceOut], layout, {responsive: true});
+    Plotly.newPlot('thi-chart', [traceIn, traceOut], layout, { responsive: true });
 }
 
 function showPage(pageId) {
