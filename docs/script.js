@@ -339,63 +339,49 @@ function updateUI(data) {
 }
 
 function renderChart(forecast) {
-    const container = document.getElementById('thi-chart');
-    const W = 575, H = 200, ox = 50, oy = 10;
-    const minY = 30, maxY = 85;
-    const n = forecast.length;
-
-    function yPos(v) { return oy + H - ((v - minY) / (maxY - minY)) * H; }
-    function xPos(i) { return ox + (i / (n - 1)) * W; }
-
-    const zones = [
-        { y0: 30, y1: 68, fill: '#c8e6c9' },
-        { y0: 68, y1: 72, fill: '#fff9c4' },
-        { y0: 72, y1: 78, fill: '#ffe0b2' },
-        { y0: 78, y1: 82, fill: '#ffcdd2' },
-        { y0: 82, y1: 85, fill: '#ef9a9a' },
-    ];
-
-    function pts(vals) {
-        return vals.map((v, i) => `${xPos(i).toFixed(1)},${yPos(v).toFixed(1)}`).join(' ');
-    }
-
+    const times = forecast.map(f => f.Tijd);
     const thiIn = forecast.map(f => f.THI_In);
     const thiOut = forecast.map(f => f.THI_Out);
-    const times = forecast.map(f => f.Tijd);
 
-    const zoneRects = zones.map(z => {
-        const top = yPos(z.y1), bot = yPos(z.y0);
-        return `<rect x="${ox}" y="${top.toFixed(1)}" width="${W}" height="${(bot - top).toFixed(1)}" fill="${z.fill}" opacity="0.5" clip-path="url(#thi-cp)"/>`;
-    }).join('');
+    const traceIn = {
+        x: times,
+        y: thiIn,
+        name: 'THI Binnen',
+        mode: 'lines+markers',
+        line: { color: 'black' }
+    };
 
-    const gridLines = [30, 40, 50, 60, 68, 72, 78, 82].map(v => {
-        const y = yPos(v).toFixed(1);
-        return `<line x1="${ox}" x2="${ox + W}" y1="${y}" y2="${y}" stroke="#B4B2A9" stroke-width="0.5"/>
-                <text x="${ox - 6}" y="${(yPos(v) + 4).toFixed(1)}" text-anchor="end" font-size="10" fill="#5F5E5A">${v}</text>`;
-    }).join('');
+    const traceOut = {
+        x: times,
+        y: thiOut,
+        name: 'THI Buiten',
+        mode: 'lines',
+        line: { color: 'blue', dash: 'dash' }
+    };
 
-    const xLabels = times.map((t, i) => {
-        const x = xPos(i).toFixed(1);
-        return `<line x1="${x}" x2="${x}" y1="${oy + H}" y2="${oy + H + 4}" stroke="#B4B2A9" stroke-width="0.5"/>
-            <text x="${x}" y="${oy + H + 6}" text-anchor="start" font-size="10" fill="#5F5E5A"
-                  transform="rotate(90, ${x}, ${oy + H + 6})">${t}</text>`;
-    }).join('');
+    const layout = {
+        yaxis: { range: [30, 85], title: 'THI' },
+        hovermode: 'x unified',
+        legend: { orientation: 'h', y: -0.2 },
+        margin: { t: 20, b: 50, l: 50, r: 20 },
+        shapes: [
+            { type: 'rect', xref: 'paper', yref: 'y', x0: 0, x1: 1, y0: 0, y1: 68, fillcolor: 'lightgreen', opacity: 0.2, line: {width: 0}, layer: 'below' },
+            { type: 'rect', xref: 'paper', yref: 'y', x0: 0, x1: 1, y0: 68, y1: 72, fillcolor: 'yellow', opacity: 0.2, line: {width: 0}, layer: 'below' },
+            { type: 'rect', xref: 'paper', yref: 'y', x0: 0, x1: 1, y0: 72, y1: 78, fillcolor: 'orange', opacity: 0.2, line: {width: 0}, layer: 'below' },
+            { type: 'rect', xref: 'paper', yref: 'y', x0: 0, x1: 1, y0: 78, y1: 82, fillcolor: 'red', opacity: 0.2, line: {width: 0}, layer: 'below' },
+            { type: 'rect', xref: 'paper', yref: 'y', x0: 0, x1: 1, y0: 82, y1: 100, fillcolor: 'darkred', opacity: 0.2, line: {width: 0}, layer: 'below' }
+        ],
+        height: 600,
+        // width: 800,
+    };
 
-    const dots = thiIn.map((v, i) =>
-        `<circle cx="${xPos(i).toFixed(1)}" cy="${yPos(v).toFixed(1)}" r="4" fill="#2C2C2A" clip-path="url(#thi-cp)"/>`
-    ).join('');
+    const config = {
+        staticPlot: true,
+        responsive: true,
+        format: 'svg'
+    }
 
-    container.innerHTML = `
-    <svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
-      <defs><clipPath id="thi-cp"><rect x="${ox}" y="${oy}" width="${W}" height="${H}"/></clipPath></defs>
-      ${zoneRects}
-      ${gridLines}
-      <polyline points="${pts(thiOut)}" fill="none" stroke="#378ADD" stroke-width="2.5" stroke-dasharray="6 4" stroke-linejoin="round" clip-path="url(#thi-cp)"/>
-      <polyline points="${pts(thiIn)}"  fill="none" stroke="#2C2C2A" stroke-width="2.5" stroke-linejoin="round" clip-path="url(#thi-cp)"/>
-      ${dots}
-      ${xLabels}
-      <rect x="${ox}" y="${oy}" width="${W}" height="${H}" fill="none" stroke="#B4B2A9" stroke-width="0.5"/>
-    </svg>`;
+    Plotly.newPlot('thi-chart', [traceIn, traceOut], layout, config);
 }
 
 function showPage(pageId) {
