@@ -1,36 +1,46 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THI Heatstress App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
 </head>
+
 <body>
-    <div class="sidebar">
-        <h2>☰ Menu</h2>
-        <nav>
-            <ul>
-                <li><a href="#" onclick="showPage('home')">Dashboard</a></li>
-                <li><a href="#" onclick="showPage('register')">Inschrijven</a></li>
-                <li><a href="#" onclick="showPage('about')">About</a></li>
-            </ul>
-        </nav>
-        <hr>
-        <div class="sidebar-search">
-            <label for="station-select">Kies een weerstation:</label>
-            <select id="station-select" onchange="loadStation(this.value)">
-                <!-- Wordt gevuld door JS -->
-            </select>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">
+                <span style="color:#e74c3c;">HEAT</span>stress
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="#" onclick="showPage('home')">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" onclick="showPage('register')">Inschrijven</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#" onclick="showPage('about')">About</a></li>
+                </ul>
+                <div class="d-flex align-items-center gap-2">
+                    <label for="station-select" class="text-white mb-0 small">Weerstation:</label>
+                    <select id="station-select" class="form-select form-select-sm" style="min-width:160px"
+                        onchange="loadStation(this.value)"></select>
+                </div>
+            </div>
         </div>
-    </div>
+    </nav>
 
     <main class="content">
         <!-- HOME PAGE -->
         <section id="page-home">
             <h1 class="title"><span class="heat">HEAT</span> stress APP</h1>
-            
+
             <div id="status-box" class="status-box">
                 Laden...
             </div>
@@ -67,7 +77,8 @@
             <h2>📲 Meldingen ontvangen</h2>
             <p>Klik op de knop om deze browser te abonneren op meldingen.</p>
             <button id="subscribe-button" class="st-button" type="button">Abonneren op meldingen</button>
-            <button id="unsubscribe-button" class="st-button" type="button" style="margin-left: 12px;">Desubscribe</button>
+            <button id="unsubscribe-button" class="st-button" type="button"
+                style="margin-left: 12px;">Desubscribe</button>
             <p id="status">Status: klaar</p>
         </section>
 
@@ -76,11 +87,13 @@
             <h2>🐄 Heatstress App 🛠️</h2>
             <div class="about-content">
                 <img src="images/cowboy.png" alt="The Dairy Campus Cowboys" class="about-img">
-                <p>The Dairy <b style="color:red">Heat</b>stress App was forged in the digital frontier by the Dairy Campus Cowboys.</p>
+                <p>The Dairy <b style="color:red">Heat</b>stress App was forged in the digital frontier by the Dairy
+                    Campus Cowboys.</p>
                 <p>⭐ Anna, our shining star, tolerated zero 'fluff' on the Frontier.</p>
-                <p>🤠 Paul, the old sherrif supplied the vital and safe context.</p> 
+                <p>🤠 Paul, the old sherrif supplied the vital and safe context.</p>
                 <p>💻 Bert, responsible for disrupting hacks, beers & bytes</p>
-                <p>The Dairy Campus Cowboys engineered this application to deliver heat stress insights, without the fluff.</P>
+                <p>The Dairy Campus Cowboys engineered this application to deliver heat stress insights, without the
+                    fluff.</P>
             </div>
         </section>
 
@@ -89,6 +102,8 @@
         </footer>
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
